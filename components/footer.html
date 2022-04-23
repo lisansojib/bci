@@ -1,0 +1,164 @@
+
+<footer style="padding-top: 0px !important;" class="footer-section section-padding padding-bottom-0 text-center">
+
+    <div class="footer-bottom">
+        <div class="footer-rights">
+            <p class="copyright-text">
+                © Copyright 2018 Verivent LLC - All Rights Reserved. BCI Summit is a registered Trademark of Verivent LLC.
+                <i>
+                    All events, materials, topics and discussions are purely opinions and
+                    are for information purposes only. It is not intended to be investment advice.
+                    Seek a duly licensed professional for investment advice
+                </i>
+            </p>
+        </div>
+
+        <div class="social-link">
+             <a target="_blank" href="https://twitter.com/BciSummit"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/bci-summit/"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+
+        <div class="aFooter">
+            <a href="terms.html">Terms and Conditions &nbsp;&nbsp;&nbsp; </a>
+            <a href="privacy.html">Privacy Policy &nbsp;&nbsp;&nbsp; </a>
+            <a href="contact.html"> Contact</a>
+        </div>
+    </div>
+
+
+
+
+</footer><!--footer section end-->
+
+
+<div id="signModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content text-center" style=" max-width: 410px; "> <span class="close">&times;</span>
+        <p class="bigger"  style=" font-size: 25px; ">Stay updated with BCI Summit</p>
+        <!--<p>Enter your name and primary email to win a FREE ticket to the BCI Summit every week till June 10: </p>-->
+
+        <br>
+
+        <form method="post" id="savesend-form-save">
+            <input type="text" class="name" name="name" id="name" placeholder="Name">
+            <input type="email" class="email" name="email" id="email" placeholder="Primary Email">
+            <input type="submit" id="submit" value="SUBSCRIBE">
+        </form>
+
+        <div id="success"></div>
+
+
+        <!-- <p style="margin-top: 19px; font-size: 14px; text-align: left; width: 283px; margin: 0px auto 10px auto; padding: 10px 10px 10px 10px;">
+                <a href="offers/VIP-trip-giveaway.html" style="color: #fff; text-align: left; font-size: 14px;">
+                    * See terms
+                </a>
+            </p> -->
+    </div>
+</div>
+<script src="assets/js/countdown.js"></script>
+<!--jquery script load-->
+<script src="assets/js/jquery.js"></script>
+<!--Owl carousel script load-->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--Bootstrap v3 script load here-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--Slick Nav Js File Load-->
+<script src="assets/js/jquery.slicknav.min.js"></script>
+<!-- Js File Load-->
+<script src="assets/js/wow.min.js"></script>
+<!--Main js file load-->
+<script src="assets/js/main052518.js?ver=1"></script>
+<!-- lightgallery -->
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+<script>
+    lightGallery(document.getElementById('lightgallery'));
+    var loc = window.location.pathname;
+    var dir = loc.substring(1, loc.lastIndexOf('/'));
+    console.log(dir);
+</script>
+
+
+<!-- Twitter universal website tag code -->
+<script>
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+        a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','nzle8');
+    twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+<script>
+    var fs = require('fs');
+    var files = fs.readdirSync('/assets/img/');
+    console.log(files);
+</script>
+
+<script>
+    $('.openNewPopup').click(function (e) {
+        e.preventDefault();
+        var Id = $(this).attr("data-popup");
+
+        $('body, html').css('overflow', 'hidden');
+        $('.formNewpopUp[data-popup="'+Id+'"]').fadeIn(400);
+    });
+
+
+//    $('.closeBtn, .formNewpopUp').click(function () {
+    $('.closeBtn').click(function () {
+        $('.formNewpopUp').fadeOut(400);
+        $('body, html').css('overflow', 'auto');
+    })
+
+
+    $('.slick-carousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 3,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+
+                }
+            }
+        ]
+    });
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

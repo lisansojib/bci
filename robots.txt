@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /api/
+Disallow: /unsubscribe/
+Disallow: /offers/
+Disallow: /legal/
+Disallow: /events/digital-art-for-charity.html
+Disallow: /summit18gallery.php
+Disallow: /agenda.html
+Disallow: /talks/
+Disallow: /testing/
+
+Sitemap: https://bcisummit.com/Web.sitemap

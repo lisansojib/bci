@@ -1,0 +1,550 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>BCI Summit</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="BCI was established to provide trust, transparency, and targeted networking in the disruptive technology space. We connect companies with our global community of investors, innovators and educators through curated invite-only roundtables and other events. BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BCI Summit | New York">
+    <meta property="og:description" content="BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth">
+    <meta property="og:image" content="http://bcisummit.com/assets/img/ogbuilding.png">
+    <meta property="og:url" content="http://bcisummit.com">
+    <meta property="og:site_name" content="BCI Summit">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@bcisummit" />
+    <meta name="twitter:title" content="BCI Summit | New York">
+    <meta name="twitter:description" content="BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth">
+    <meta name="twitter:image" content="http://bcisummit.com/assets/img/ogbuilding.png">
+    <meta name="twitter:image:alt" content="BCI Summit | New York">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="BCI Summit">
+    <meta itemprop="description" content="BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth">
+    <meta itemprop="url" content="http://bcisummit.com/">
+    <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<meta itemprop="addressLocality" content="New York, NY">
+</span></span>
+
+    <!--  Non-Essential, But Required for Analytics
+        <meta property="fb:app_id" content="your_app_id" />
+        <meta name="twitter:site" content="@website-username">-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110674874-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110674874-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TPCLFBQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="../assets/css/slicknav.min.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style060418_tom.css?v=2.7" rel="stylesheet">
+    <link href="../assets/css/responsive.css?v=2.8" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Chatra {literal} -->
+    <script>
+        window.ChatraSetup = {
+            colors: {
+                buttonText: '#f0f0f0', /* chat button text color */
+                buttonBg: '#f06824'    /* chat button background color */
+            },
+            buttonPosition: window.innerWidth < 1024? 'bc': 'br'
+        };
+        (function(d, w, c) {
+            w.ChatraID = 'rp3nFde9Tm8B5tSWR';
+            var s = d.createElement('script');
+            w[c] = w[c] || function() {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = 'https://call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'Chatra');
+    </script>
+    <!-- /Chatra {/literal} -->
+    <script> gtag('event', 'conversion', {'send_to': 'AW-816360806/Q-lYCNrvmYMBEObaooUD'}); </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+
+            $( "#savesend-form-save" ).on( "submit", function(e) {
+
+                e.preventDefault();
+
+                var proceed = true;
+
+                var name = $("input[name='name']").val();
+                var email = $("input[name='email']").val();
+
+                if (name == '') {
+                    $('input[name=name]').css('border','1px solid red');
+                    proceed = false;
+                }else{
+                    $('input[name=name]').css('border','1px solid green');
+                }
+
+                if (email== '') {
+                    $('input[name=email]').css('border','1px solid red');
+                    proceed = false;
+                }else{
+                    $('input[name=email]').css('border','1px solid green');
+                }
+
+
+                if (proceed){
+                    $.ajax({
+                        url: "../textfile.php",
+                        method: "POST",
+                        data: $(this).serialize(),
+                        dataType: "html",
+                        success: function(response) {
+
+                            $("#success").show();
+                            $("#success").html("Thank You!<br>We'll be in touch");
+
+                            $("#name").hide();
+                            $("#email").hide();
+                            $("#submit").hide();
+
+
+                        }
+
+                    });
+
+                }
+            });
+
+        });
+
+    </script>
+
+
+    <style>
+        @media screen and (min-width: 1024px){
+            .twocol.detail-content p {
+                width: 50%;
+                margin-bottom: 0;
+                padding: 0 15px;
+            }
+
+        .row.gall .col-xs-6:nth-child(4n+1) {
+            clear: left;
+        }
+    }
+
+    @media only screen and (max-width : 992px) {
+        .row.gall .col-md-3:nth-child(2n+1) {
+            clear: left;
+            margin-bottom: 10px;
+        }
+    }
+
+
+    </style>
+
+</head>
+
+
+
+<body class="homepagebody">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPCLFBQ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<div class="preloader">
+    <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+    </div>
+</div>
+<div class="scroll-to-top"> <a href=""><i class="fa fa-caret-up"></i></a> </div>
+<div class="mobile-logo"> <a href="../index.html"><img src="../assets/img/logo-temp.png" style="height:45px" alt="BCI Summit"></a> </div>
+<nav class="main-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="logo"> <a href="../index.html"><img src="../assets/img/logo-temp.png" style="height:45px" alt="BCI Summit"></a> </div>
+            </div>
+            <div class="col-md-9 text-right">
+                <nav>
+                        <ul id="menu-bar" class="menu-bar mobile">
+                            </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="breadcrumb-section contact-bg section-padding pastE">
+    <nav class="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"> <a href="../index.html"><img src="../assets/img/logo-temp-2.png" style="height:45px" alt="BCI Summit"></a> </div>
+                </div>
+                <div class="col-md-9 text-right">
+                    <nav>
+                            <ul id="menu-bar" class="menu-bar">
+                                </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h1>Event Details</h1>
+                <p> Following the success of the first Annual BCI Summit, BCI will host a fundraiser for the Make-A-Wish® in Manhattan, New York. </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Header section end-->
+
+<section class="section-padding intro-page" style="padding-top: 60px !important;     padding-bottom: 60px !important;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center">
+                            <h2>Gallery</h2>
+                        </div>
+                <div class="row gall">
+
+                    <div class="col-xs-6 col-md-3 item">
+                        <img src="../assets/img/galleryEA072018/0287-20180725-AZ-BCI.jpg" class="img-responsive" alt="investor image">
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 item">
+                        <img src="../assets/img/galleryEA072018/0100-20180725-AZ-BCI.jpg" class="img-responsive" alt="investor image">
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 item">
+                        <img src="../assets/img/galleryEA072018/0166-20180725-AZ-BCI.jpg" class="img-responsive" alt="investor image">
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 item">
+                        <img src="../assets/img/galleryEA072018/0276-20180725-AZ-BCI.jpg" class="img-responsive" alt="investor image">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                        <div class="col-xs-12 text-center">
+                        <a href="../galleryEA072018.php">
+                            <input type="submit" style="background: #00B356;" value="View Gallery">
+                        </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-us-page abo about-page">
+    <div class="container">
+        <div class="row">
+            <div class="detail-header">
+                <div class="detail-header-left">
+                    <h2 style="color:#F06824">Charity Event</h2>
+                </div>
+                <div class="detail-header-right">
+                    <p> Growth and Opportunities in Arts with Blockchain </p>
+                </div>
+            </div>
+            <div class="detail-content">
+                <p> The fundraiser celebrates the launch of BCI Roundtables, created to help investors demystify blockchain through education, transparency, and targeted business networking. Industry experts and investors will explore blockchain's impact on Arts and Culture, in particular:<br>
+                    <br>
+                    1. Moving existing visual arts to blockchain for security and tracking<br>
+                    <br>
+                    2. Emerging and AI generated arts on blockchain (such as CryptoKitties)<br>
+                    <br>
+                    3. Utilizing blockchain technologies to protect artist’s rights and compensation<br>
+                    <br>
+                    <br>
+                    The upcoming series of curated round-tables will focus on educating and connecting investors with unique opportunities in blockchain.
+                    <br><br>
+                    <b>Why Sponsor?</b><br>
+                    BCI Summit provides extensive opportunities for companies to connect with investors, media and the community. Showcasing your company, brand and products allows for interested parties to connect with your organization before, during and after the event. Ongoing media coverage provides ongoing brand recognition and networking opportunities.<br>
+                    <br>
+
+                </p>
+
+                <p> <b>Event</b>:<br>
+                    Growth and Opportunities in Arts with Blockchain<br>
+                    <br>
+                    <b>Date</b>:<br>
+                    25th July 2018, 6pm-9pm<br>
+                    <br>
+                    <b>Location</b>:<br>
+                    Midtown Manhattan,<br>
+                    New York, New York<br>
+                    <br>
+                    <b>Agenda</b>:<br>
+                    <span style="white-space: nowrap;">6:00-7:00pm - Welcome Reception &amp; Networking</span><br>
+                    7:00-8:00pm - Speakers Panel and Q+A<br>
+                    8:00-9:00pm - Raffle & More Networking<br>
+                    <br>
+                    Panelists include Richard McBeath, VP of Growth at Masterworks, a company democratizing ownership in the world's greatest masterpieces by allowing investors to purchase and trade shares on an approved trading platform, Judy Mam, Co-Founder of Dada.nyc, the world’s only visual conversation network where artists and regular people speak to each other through drawings and create art together, and Tatiana Moroz, Founder of Tatiana Coin, the world’s first musical artist cryptocurrency facilitating crowdfunding campaigns with flexible and transferrable rewards.
+                </p>
+                <p>
+                    <b>Charity</b><br>
+                    All net ticket proceeds and donations will be donated to Make-A-Wish® Metro New York (www.metrony.wish.org).<br>
+                    <br>
+                    <b>Raffle</b><br>
+                    All proceeds from raffle ticket sales will go to Make-A-Wish®. Raffle prices include wine from Fulkerson’s Winery, Lady M® Cake,  Dada.nyc artwork as well as a unique CryptoKittie worth up to $2,400.<br><br>
+                <span style="text-align: center; display: block">
+                        <span style="margin:0 auto; display: inline-block">
+                    <img src="../assets/img/raffle.png"/>
+
+                <br>More information on the Cryptokittie <a href="https://kittycalc.co/read/?k1=460&k2=461679" target="_blank">here</a>.
+                </span>
+                </span>
+                <br>
+                <br>
+                <b>Who we are</b><br>
+                BCI was established to provide trust, transparency and targeted networking in the disruptive technology space.
+                <br />We ensure that long-term relationships are cultivated and maintained within our global community. </p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-xs-12 text-center">
+                        <div style="color:#F06824; padding-top:30px"> <b>All donations and net proceeds from ticket sales go to Make-A-Wish®</b> </div>
+                </div>
+
+        </div>
+
+
+
+    </div>
+</section>
+
+<section class="section-padding top-investor" style="padding-top: 30px !important; padding-bottom: 0px !important;">
+    <div class="container"><!-- container -->
+        <div class="section-title text-center">
+            <h2>Speakers</h2>
+            <!--<p>Updates made routinely. Please check back for the latest news and changes.</p>-->
+        </div>
+        <div class="investor-carousel owl-theme text-center col-md-offset-0 investor-carousel-padding">
+            <div class="item">
+                <div class="investor-wrapper">
+                    <div class="investor-profile"> <img src="../assets/img/speakers/judy-mam.jpg" class="img-responsive max70" alt="investor image"> </div>
+                    <div class="single-investor-wrapper">
+                        <h4>Judy Mam</h4>
+                        <p class="sp-height"> Co-Founder <br>
+                            Dada.nyc </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="investor-wrapper">
+                    <div class="investor-profile"> <img src="../assets/img/speakers/richard-mcBeath.jpg" class="img-responsive max70" alt="investor image"> </div>
+                    <div class="single-investor-wrapper">
+                        <h4>Richard McBeath</h4>
+                        <p class="sp-height"> VP Growth <br>
+                            Masterworks<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="investor-wrapper">
+                    <div class="investor-wrapper">
+                        <div class="investor-profile"> <img src="../assets/img/speakers/tatiana-moroz.jpg" class="img-responsive" alt="speaker image"> </div>
+                        <div class="single-investor-wrapper">
+                            <h4>Tatiana Moroz</h4>
+                            <p class="sp-height"> Founder <br>
+                                Tatiana Coin & Crypto Media Hub </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="investor-wrapper">
+                    <div class="investor-wrapper">
+                        <div class="investor-profile"> <img src="../assets/img/speakers/joseph-checkler.jpg" class="img-responsive" alt="speaker image"> </div>
+                        <div class="single-investor-wrapper">
+                            <h4>Joseph Checkler</h4>
+                            <p class="sp-height"> VP <br>
+                                Private Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding sponsor-section" style="padding-top: 60px!important; padding-bottom: 60px!important;">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Sponsors</h2>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="row sponsors-thumbs">
+                    <div class="col-md-12 col-md-offset-0"> <a href="https://www.masterworks.io/" target="_blank"> <img src="../assets/img/sponsors/Masterworks.png" class="center-block" alt="Masterworks"> </a> </div>
+                    <p>&nbsp;</p>
+                    <div class="col-md-2 col-md-offset-2"></div>
+                    <div class="col-md-2"> <a href="http://www.fulkersonwinery.com/" target="_blank"> <img src="../assets/img/sponsors/Fulkerson.png" class="center-block" alt="Fulkerson Winery"> </a> </div>
+                    <div class="col-md-2"> <a href="https://www.ladym.com/" target="_blank"> <img src="../assets/img/sponsors/Lady-M.png" class="center-block" alt="Lady M"> </a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<p>&nbsp;</p>
+<div  id="buytickets"></div>
+<div style="width:100%; text-align:left;">
+    <iframe src="https://eventbrite.com/tickets-external?eid=47376585643&ref=etckt" frameborder="0" class="iframe-eventbrite" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+    <!--<div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;"> <a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">asdfasf</a> </div>-->
+</div>
+<div class="row text-center">
+    <div class="container">
+        <div class="col-md-12">
+            <div style="color:grey; font-size:12px;"> <i>* BCI estimates that net proceeds will equal to aproximately 80% of each ticket upon sale of all tickets</i> </div>
+        </div>
+    </div>
+</div>
+<div style="color:grey; font-size:12px; padding:20px" class="center-block"> </div>
+
+<!--footer section start-->
+<!--<footer style="padding-top: 0px !important;" class="footer-section section-padding padding-bottom-0 text-center">-->
+<!--<div class="footer-bottom">-->
+<!--<p class="copyright-text">© Copyright 2018 Verivent LLC - All Rights Reserved. All events, materials, topics and discussions are purely opinions and are for information purposes only. It is not intended to be investment advice. Seek a duly licensed professional for investment advice</p>-->
+<!--<div class="social-link"> <a target="_blank" href="https://www.meetup.com/BCISummit" ><i class="fa fa-meetup"></i> </a> &lt;!&ndash;<span class="tooltiptext">Meetup</span>&ndash;&gt; -->
+<!--<a target="_blank" href="https://twitter.com/BciSummit"><i class="fa fa-twitter"></i></a> <a target="_blank" href="https://www.linkedin.com/company/bci-summit/"><i class="fa fa-linkedin"></i></a> -->
+<!--&lt;!&ndash;<a target="_blank" href="https://www.facebook.com/BCISumm/"><i class="fa fa-facebook"></i></a>&ndash;&gt; -->
+<!--&lt;!&ndash;<a target="_blank" href="https://t.me/bcisummit"><i class="fa fa-telegram-plane"></i></a>&ndash;&gt; -->
+<!--</div>-->
+<!--<div class="aFooter"> <a href="https://bcisummit.com/terms.html">Terms and Conditions &nbsp;&nbsp;&nbsp; </a> <a href="https://bcisummit.com/privacy.html">Privacy Policy</a> </div>-->
+<!--</div>-->
+<!--</footer>-->
+<!--footer section end-->
+
+
+
+<footer style="padding-top: 0px !important;" class="footer-section section-padding padding-bottom-0 text-center">
+
+    <div class="footer-bottom">
+        <div class="footer-rights">
+            <p class="copyright-text">
+                © Copyright 2018 Verivent LLC - All Rights Reserved.
+                <i>
+                    All events, materials, topics and discussions are purely opinions and
+                    are for information purposes only. It is not intended to be investment advice.
+                    Seek a duly licensed professional for investment advice
+                </i>
+            </p>
+        </div>
+
+        <div class="social-link">
+            <a target="_blank" href="https://www.meetup.com/BCISummit" ><i class="fa fa-meetup"></i>   </a>  <!--<span class="tooltiptext">Meetup</span>-->
+            <a target="_blank" href="https://twitter.com/BciSummit"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/bci-summit/"><i class="fa fa-linkedin"></i></a>
+            <!--<a target="_blank" href="https://www.facebook.com/BCISumm/"><i class="fa fa-facebook"></i></a>-->
+            <!--<a target="_blank" href="https://t.me/bcisummit"><i class="fa fa-telegram-plane"></i></a>-->
+        </div>
+
+        <div class="aFooter">
+            <a href="../terms.html">Terms and Conditions &nbsp;&nbsp;&nbsp; </a>
+            <a href="../privacy.html">Privacy Policy &nbsp;&nbsp;&nbsp; </a>
+            <a href="../contact.html"> Contact</a>
+        </div>
+    </div>
+
+
+
+
+</footer><!--footer section end-->
+
+
+<div id="signModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content text-center" style=" max-width: 410px; "> <span class="close">&times;</span>
+        <p class="bigger"  style=" font-size: 25px; ">Stay updated with BCI Summit</p>
+        <!--<p>Enter your name and primary email to win a FREE ticket to the BCI Summit every week till June 10: </p>-->
+
+        <br>
+
+        <form method="post" id="savesend-form-save">
+            <input type="text" class="name" name="name" id="name" placeholder="Name">
+            <input type="email" class="email" name="email" id="email" placeholder="Primary Email">
+            <input type="submit" id="submit" value="SUBSCRIBE">
+        </form>
+
+        <div id="success"></div>
+
+
+        <!-- <p style="margin-top: 19px; font-size: 14px; text-align: left; width: 283px; margin: 0px auto 10px auto; padding: 10px 10px 10px 10px;">
+                <a href="offers/VIP-trip-giveaway.html" style="color: #fff; text-align: left; font-size: 14px;">
+                    * See terms
+                </a>
+            </p> -->
+    </div>
+</div>
+<script src="../assets/js/countdown.js"></script>
+<!--jquery script load-->
+<script src="../assets/js/jquery.js"></script>
+<!--Owl carousel script load-->
+<script src="../assets/js/owl.carousel.min.js"></script>
+<!--Bootstrap v3 script load here-->
+<script src="../assets/js/bootstrap.min.js"></script>
+<!--Slick Nav Js File Load-->
+<script src="../assets/js/jquery.slicknav.min.js"></script>
+<!-- Js File Load-->
+<script src="../assets/js/wow.min.js"></script>
+<!--Main js file load-->
+<script src="../assets/js/main052518_tom.js?ver=5e"></script>
+
+
+
+
+<script>
+    $('.closeBtn').click(function () {
+        console.log(11)
+        $('.formNewpopUp').fadeOut(400)
+    })
+</script>
+
+<script>
+    $('.openNewPopup').click(function (e) {
+        e.preventDefault();
+        var Id = $(this).attr("data-popup");
+
+        $('body, html').css('overflow', 'hidden');
+        $('.formNewpopUp[data-popup="'+Id+'"]').fadeIn(400);
+    });
+
+
+    //    $('.closeBtn, .formNewpopUp').click(function () {
+    $('.closeBtn').click(function () {
+        $('.formNewpopUp').fadeOut(400);
+        $('body, html').css('overflow', 'auto');
+    })
+
+</script>
+
+</body>
+</html>

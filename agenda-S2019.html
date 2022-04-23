@@ -1,0 +1,1465 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>Agenda | BCI Summit 2019</title>
+    <meta name="robots" content="noindex">
+    <meta name="description" content="All speakers and panel participants confirmed for BCI Summit 2019" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BCI Summit | Speakers">
+    <meta property="og:description" content="All speakers and panel participants confirmed for BCI Summit 2019">
+    <meta property="og:image" content="http://bcisummit.com/assets/img/bci-share.jpg">
+    <meta property="og:url" content="http://bcisummit.com/speakers.html">
+    <meta property="og:site_name" content="BCI Summit">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@bcisummit" />
+    <meta name="twitter:title" content="BCI Summit | New York">
+    <meta name="twitter:description" content="All speakers and panel participants confirmed for BCI Summit 2019">
+    <meta name="twitter:image" content="http://bcisummit.com/assets/img/bci-share.jpg">
+    <meta name="twitter:image:alt" content="BCI Summit | New York">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="BCI Summit">
+    <meta itemprop="description" content="All speakers and panel participants confirmed for BCI Summit 2019">
+    <meta itemprop="url" content="http://bcisummit.com/speakers.html">
+    <meta itemprop="addressLocality" content="New York, NY">
+
+
+    <!--  Non-Essential, But Required for Analytics
+        <meta property="fb:app_id" content="your_app_id" />
+        <meta name="twitter:site" content="@website-username">-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110674874-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110674874-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TPCLFBQ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/slicknav.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/style060418_tom.css?v=2.7002" rel="stylesheet">
+    <link href="assets/css/responsive.css?v=2.8" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Chatra {literal} -->
+    <script>
+        window.ChatraSetup = {
+            colors: {
+                buttonText: '#f0f0f0', /* chat button text color */
+                buttonBg: '#f06824'    /* chat button background color */
+            },
+            buttonPosition: window.innerWidth < 1024 ? 'bc' : 'br'
+        };
+        (function (d, w, c) {
+            w.ChatraID = 'rp3nFde9Tm8B5tSWR';
+            var s = d.createElement('script');
+            w[c] = w[c] || function () {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = 'https://call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'Chatra');
+    </script>
+    <!-- /Chatra {/literal} -->
+    <script> gtag('event', 'conversion', { 'send_to': 'AW-816360806/Q-lYCNrvmYMBEObaooUD' });</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("#savesend-form-save").on("submit", function (e) {
+
+                e.preventDefault();
+
+                var proceed = true;
+
+                var name = $("input[name='name']").val();
+                var email = $("input[name='email']").val();
+
+                if (name == '') {
+                    $('input[name=name]').css('border', '1px solid red');
+                    proceed = false;
+                } else {
+                    $('input[name=name]').css('border', '1px solid green');
+                }
+
+                if (email == '') {
+                    $('input[name=email]').css('border', '1px solid red');
+                    proceed = false;
+                } else {
+                    $('input[name=email]').css('border', '1px solid green');
+                }
+
+
+                if (proceed) {
+                    $.ajax({
+                        url: "../textfile.php",
+                        method: "POST",
+                        data: $(this).serialize(),
+                        dataType: "html",
+                        success: function (response) {
+
+                            $("#success").show();
+                            $("#success").html("Thank You!<br>We'll be in touch");
+
+                            $("#name").hide();
+                            $("#email").hide();
+                            $("#submit").hide();
+
+
+                        }
+
+                    });
+
+                }
+            });
+
+        });
+
+    </script>
+
+    <style>
+        @media screen and (min-width: 1024px) {
+            .twocol.detail-content p {
+                width: 50%;
+                margin-bottom: 0;
+                padding: 0 15px;
+            }
+
+            .row .col-xs-6:nth-child(4n+1) {
+                clear: left;
+            }
+        }
+
+        @media only screen and (max-width : 992px) {
+            .row .col-md-3:nth-child(2n+1) {
+                clear: left;
+            }
+        }
+
+        .investor-profile img {
+            max-height: 225px;
+            max-width: 225px;
+        }
+
+        .single-investor-wrapper {
+            text-align: center;
+        }
+
+        input[type="submit"].white {
+            background: #faf9f9 !important;
+            color: #f06824 !important;
+        }
+
+        input[type="submit"].white:hover {
+            background: #F06824 !important;
+            ;
+            color: #fff !important;
+            ;
+        }
+    </style>
+
+</head>
+
+<body class="homepagebody">
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPCLFBQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+    <div class="scroll-to-top"> <a href=""><i class="fa fa-caret-up"></i></a> </div>
+    <div class="mobile-logo"> <a href="index.html"><img src="../assets/img/logo-temp.png" style="height:45px"
+                alt="BCI Summit"></a> </div>
+    <nav class="main-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"> <a href="index.html"><img src="../assets/img/logo-temp.png" style="height:45px"
+                                alt="BCI Summit"></a> </div>
+                </div>
+                <div class="col-md-9 text-right">
+                    <nav>
+                        <ul id="menu-bar" class="menu-bar mobile"></ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="breadcrumb-section contact-bg speackers section-padding">
+        <nav class="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo-temp-2.png" style="height:45px"
+                                    alt="BCI Summit"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 text-right">
+                        <nav>
+                            <ul id="menu-bar" class="menu-bar"></ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h1>Agenda</h1>
+                    <!--                <p>Our speakers are at the forefront of technological innovation. Ranging from reporters to CEO’s of major tech companies, our list of panelists includes a plethora of cryptocurrency and blockchain experts. These leading industry executives and investors are all ready to share their knowledge and help you invest smarter.</p>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Header section end-->
+
+
+
+
+    <section class="full-agenda-section">
+
+        <div class="container agenta-two">
+
+
+
+
+            <div>
+
+                <div class="section-title text-center section-padding padding-bottom-0 agendta"
+                    style="padding-top: 60px !important;">
+                    <h2>Friday (May 10th)</h2>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="agenta-two-titles">
+                        <span>
+                            09:30&nbsp;am
+                        </span>
+                        <h4 data-id="1">
+                            Introduction and Welcome Address
+                        </h4>
+                        <br>
+                    </div>
+
+                    <div class="agenta-two-titles">
+                        <span>
+                            09:40&nbsp;am
+
+                        </span>
+                        <h4 data-id="2">
+                            Sectors Most Prone to Disruption by AI
+                        </h4>
+                        <br>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            10:20&nbsp;am
+                        </span>
+                        <h4 data-id="3">
+                            AI-driven Portfolio Growth
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            11:00&nbsp;am
+                        </span>
+                        <h4 data-id="4">
+                            Valuating AI and Blockchain Startups
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            11:40&nbsp;am
+
+                        </span>
+                        <h4 data-id="5">
+                            Quantum Computer's Destruction of Security & Blockchain
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            12:20&nbsp;pm
+                        </span>
+                        <h4 data-id="6">
+                            Bottlenecks and Opportunities in Institutional Banking
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            01:00&nbsp;pm
+                        </span>
+                        <h4 data-id="9">
+                            D-Wave: Practical Quantum Computing
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            01:20&nbsp;pm
+                        </span>
+                        <h4 data-id="9">
+                            The Future of Identity, Privacy and Security
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            02:00&nbsp;pm
+                        </span>
+                        <h4 data-id="9">
+                            New Wave of AI Trading With AiX
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            02:10&nbsp;pm
+                        </span>
+                        <h4 data-id="9">
+                            LP's Exposure to Disruptive Technologies
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            02:40&nbsp;pm
+                        </span>
+                        <h4 data-id="9">
+                            Advances in Photonic QC with PsiQuantum
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            03:00&nbsp;pm
+                        </span>
+                        <h4 data-id="9">
+                            Niche Opportunities in the Future of Work
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            03:40&nbsp;pm
+                        </span>
+                        <h4 data-id="10">
+                            Founder's Fireside - Future of Venture Investment Trends
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            04:20&nbsp;pm
+                        </span>
+                        <h4 data-id="11">
+                            Asia's Impact on Disruptive Tech Growth and Future
+                        </h4>
+                    </div>
+
+                    <div class="agenta-two-titles">
+                        <span>
+                            05:00&nbsp;pm
+                        </span>
+                        <h4 data-id="14">
+                            Networking
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            07:00&nbsp;pm
+                        </span>
+                        <h4 data-id="15">
+                            VIP Dinner Reception <b>(SOLD OUT)</b>
+                        </h4>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div>
+                <div class="section-title text-center section-padding padding-bottom-0 agendta"
+                    style="padding-top: 60px !important;">
+                    <h2>Saturday (May 11th)</h2>
+                </div>
+                <div class="row" style="height: 230px;">
+
+
+                    <div class="agenta-two-titles">
+                        <span>
+                            11:00&nbsp;am
+                        </span>
+                        <h4 data-id="20">
+                            Brunch Networking and Introduction
+                        </h4>
+                    </div>
+
+
+                    <div class="agenta-two-titles">
+                        <span>
+                            11:30&nbsp;am
+                        </span>
+                        <h4 data-id="21">
+                            Future of Work and Corporate Automation
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            12:10&nbsp;pm
+                        </span>
+                        <h4 data-id="22">
+                            Advances in Cognitive Business AI with IBM
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            12:30&nbsp;pm
+                        </span>
+                        <h4 data-id="22">
+                            Global Adoption of Digital Assets and Blockchain
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            01:10&nbsp;pm
+                        </span>
+                        <h4 data-id="23">
+                            Opportunities in AI and Quantum Computing
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            01:50&nbsp;pm - 3:00 pm
+                        </span>
+                        <h4 data-id="24">
+                            Networking
+                        </h4>
+                    </div>
+
+
+                    <div class="center-box">
+                        <a href="events/s19-brunch.html">
+                            <input type="submit" style="background: #00B356;" value="Learn More">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section-title text-center section-padding padding-bottom-0 agendta"
+                    style="padding-top: 175px !important;">
+                    <h2>Sunday (May 12th)</h2>
+                </div>
+                <div class="row" style="height: 180px;">
+
+
+                    <div class="agenta-two-titles">
+                        <span>
+                            01:00&nbsp;pm
+                        </span>
+                        <h4 data-id="21">
+                            Welcome speech
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            01:30&nbsp;pm
+                        </span>
+                        <h4 data-id="21">
+                            Sampling a taste of the Hudson Valley with David Bova
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            02:30&nbsp;pm
+                        </span>
+                        <h4 data-id="21">
+                            BCI Summit closing speech
+                        </h4>
+                    </div>
+                    <div class="agenta-two-titles">
+                        <span>
+                            02:40&nbsp;pm
+                        </span>
+                        <h4 data-id="21">
+                            Networking session
+                        </h4>
+                    </div>
+
+
+
+
+                    <div class="center-box">
+                        <a href="events/s19-tasting-req.html">
+                            <input type="submit" style="background: #00B356;" value="Learn More">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="full-agenda-section">
+
+        <div class="section-title text-center section-padding padding-bottom-0" style="padding-top: 60px!important;">
+            <h2>Friday (May 10th)</h2>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div data-id="1" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>09:30 am</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Introduction and Welcome Address
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            A brief introduction by BCI Summit's Founder, Max Artemenko, and Partner, Sarah Altemeyer.
+                            <br />
+                            Get a glimpse into the BCI Summit story and mission to connect the world's leading venture
+                            investors with renowned researchers and technologists.
+                        </p>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="2" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>09:40 am</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <h4 class="activity">
+                            Sectors Most Prone to Disruption by AI
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            As data collection has drastically increased so has machine learning and robotics. Leading
+                            VCs and CVCs discuss sectors, areas and processes which hold great potential for improvement
+                            with new AI technologies, analysis and automation.
+
+                        </p>
+
+                        <div class="people-faces">
+                            <div data-name="Sara Ali <br/>Corporate Development<br>Google Inc.">
+                                <img src="assets/img/speakers/S2019/saraali.jpg" alt="">
+                            </div>
+                            <div data-name="Andrew Cleland<br/>MD<br>Comcast Ventures">
+                                <img src="assets/img/speakers/S2019/AndrewC.jpg" alt="">
+                            </div>
+                            <div data-name="Rashmi Gopinath<br/>Partner<br> M12 (Microsoft Ventures)">
+                                <img src="assets/img/speakers/S2019/rashmi.jpg" alt="">
+                            </div>
+                            <div data-name="Varun Jain<br/>MD<br> Qualcomm Ventures">
+                                <img src="assets/img/speakers/S2019/Varun_Jain.png" alt="">
+                            </div>
+                            <div data-name="Ashish Jain<br/>MD, Data Sciences<br>GE Ventures">
+                                <img src="assets/img/speakers/S2019/Ashish-ge.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="3" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>10:20 am</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            AI-driven Portfolio Growth
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            While AI/ML has been used in equity trading and market making systems for many years, new
+                            technologies are utilizing vast sets of data to better forecast everything from sales and
+                            marketing to global outlooks.Learn how top VCs and PEs are utilizing AI/ML systems to
+                            generate greater returns.
+
+                        </p>
+                        <div class="people-faces">
+                            <div
+                                data-name="Kristian J.P. Kristin<br/>Partner, Co-founder<br>Nexxus Capital<br>Admiral Group">
+                                <img src="assets/img/speakers/S2019/kkristin.jpg" alt="">
+                            </div>
+                            <div data-name="Brad McManus<br/>MD<br> Motorola Solutions VC">
+                                <img src="assets/img/speakers/S2019/BradMM.jpg" alt="">
+                            </div>
+                            <div data-name="Christopher Johnson<br/>Principal<br>Knightsbridge">
+                                <img src="assets/img/speakers/S2019/ChristopherJ.jpg" alt="">
+                            </div>
+                            <div data-name="Shahin Farshchi<br/>Partner<br>Lux Capital">
+                                <img src="assets/img/speakers/S2019/ShahinF.png" alt="">
+                            </div>
+                            <div data-name="Mark Gorenberg<br/>Founder & MD<br>Zetta Venture Partners">
+                                <img src="assets/img/speakers/S2019/markg.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="4" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>11:00 am</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Valuating AI and Blockchain Startups
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            With an ever increasing number of startups touting significant opportunities and use cases
+                            for AI and Blockchain technologies, distinguishing the most promising ones is not an easy
+                            task. Executives and directors of leading VCs with countless exits discuss their methods for
+                            finding their unicorns.
+                        </p>
+                        <div class="people-faces">
+
+                            <div data-name="Jules Miller, <br/> Partner<br>IBM Accelerator">
+                                <img src="assets/img/speakers/S2019/JulesM.jpg" alt="">
+                            </div>
+
+                            <div data-name="Lior Messika, <br/>Founder, President<br> Eden Block">
+                                <img src="assets/img/speakers/S2019/liorm.jpg" alt="">
+                            </div>
+                            <div data-name="Kate Mitselmakher<br/>CEO<br>Bloccelerate">
+                                <img src="assets/img/speakers/S2019/KateM.jpg" alt="">
+                            </div>
+                            <div data-name="Jaidev Shergill<br/>Head of Capital One<br>Growth Ventures<br>Capital One">
+                                <img src="assets/img/speakers/S2019/jaidev-s.jpg" alt="">
+                            </div>
+                            <div data-name="Nisa Amoils<br/>Trustee<br>Wharton Entrepreneurship">
+                                <img src="assets/img/speakers/S2019/nisa.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="5" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>11:40 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Quantum Computer's Destruction of Security & Blockchain
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            From science fiction to reality, quantum computing technologies are improving exponentially,
+                            some showcasing groundbreaking speeds over classical computers. Join NASA’s leading quantum
+                            researchers and quantum investors to discuss the threats and opportunities of this
+                            controversial technology.
+
+                        </p>
+
+                        <div class="people-faces">
+                            <div data-name="Ken Schneider<br/>Head of Symantec Ventures<br>Symantec Ventures">
+                                <img src="assets/img/speakers/S2019/ken-sym.jpg" alt="">
+                            </div>
+                            <div
+                                data-name="Davide Venturelli<br/>Quantum Computing Lead<br>USRA (Quantum AI Lab, NASA Ames)">
+                                <img src="assets/img/speakers/S2019/Davide.jpg" alt="">
+                            </div>
+
+                            <div data-name="Anthony Mouchantaf<br/>Associate<br>OMERS Ventures">
+                                <img src="assets/img/speakers/S2019/Anthony-OMERS.jpg" alt="">
+                            </div>
+
+                            <div data-name="Gil Beyda<br/>MD<br>Comcast Ventures">
+                                <img src="assets/img/speakers/S2019/Gil_Beyda.jpg" alt="">
+                            </div>
+                            <div data-name="Paul Kristan Temme<br/>Researcher, Theory of QC<br>IBM - T.J. Watson RC">
+                                <img src="assets/img/speakers/S2019/KristanTemme-IBM.jpg" alt="">
+                            </div>
+
+
+                        </div>
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="6" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>12:20 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Bottlenecks and Opportunities in Institutional Banking
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Large banking institutions typically hold great power and capital,however, they often lack
+                            the agility to take advantage of great opportunities. Leading VCs and global banks discuss
+                            the challenges faced by larger institutions and how some startups are taking advantage of
+                            this opportunity.
+                        </p>
+                        <div class="people-faces">
+                            <div data-name="Harrie Vollard<br/>Head of Rabo <br>Frontier Ventures<br>Rabobank">
+                                <img src="assets/img/speakers/S2019/HarrieV.jpg" alt="">
+                            </div>
+                            <div data-name="John Stecher<br/>Head of Innovation<br>Barclays">
+                                <img src="assets/img/speakers/S2019/JohnS.jpg" alt="">
+                            </div>
+                            <div data-name="Jeremy Balkin<br/>Head of Innovation<br>HSBC">
+                                <img src="assets/img/speakers/S2019/Jeremy-b.jpg" alt="">
+                            </div>
+                            <div data-name="Maria Gotsch<br/>President & CEO<br>Partnership Fund<br>for New York City">
+                                <img src="assets/img/speakers/S2019/mariag.jpg" alt="">
+                            </div>
+                            <div data-name="Luis Valdich<br/>MD<br>Citi Ventures">
+                                <img src="assets/img/speakers/S2019/LuisValdich.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="6" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>01:20 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            The Future of Identity, Privacy and Security
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Imagine a day when we no longer need to rely on credit agencies to store our personal
+                            information or even type in usernames and passwords. Ambitious technology teams are working
+                            toward global identity systems which could help refugees and lagging governments obtain
+                            citizenship and immigration records. Join some of the leading VCs as they discuss
+                            groundbreaking technologies and share their vision for the future of identity.
+                        </p>
+                        <div class="people-faces">
+                            <div data-name="Dong-Su Kim<br/>CEO<br>LG Technology Ventures">
+                                <img src="assets/img/speakers/S2019/dong-su.jpg" alt="">
+                            </div>
+                            <div data-name="Daniel Weitzner<br/>Director & Principal <br>Research Scientist<br>MIT">
+                                <img src="assets/img/speakers/S2019/danny-mit.jpg" alt="">
+                            </div>
+                            <div data-name="Gus Warren<br/>MD<br>Samsung NEXT Ventures">
+                                <img src="assets/img/speakers/S2019/gus-w.jpg" alt="">
+                            </div>
+                            <div data-name="Lonne Jaffe<br/>MD<br>Insight Ventures">
+                                <img src="assets/img/speakers/S2019/jlonne.jpg" alt="">
+                            </div>
+                            <div data-name="Jordan Shapiro<br/>Investor<br>NEA">
+                                <img src="assets/img/speakers/S2019/jordan-nea.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+
+                <div data-id="9" class="col-md-12">
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>03:00 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Niche Opportunities in the Future of Work
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            As new communication methods, automation, AI and disruptive technologies take shape, work
+                            environments and processes are changing drastically.
+                            Active investors discuss changing trends as well as opportunities that are being presented
+                            for businesses across multiple sectors.
+                        </p>
+                        <div class="people-faces">
+                            <div data-name="Tim Grayson<br/>Director, Strategic <br>Technology Office<br>DARPA">
+                                <img src="assets/img/speakers/S2019/tim-g-d.jpg" alt="">
+                            </div>
+
+                            <div data-name="Gregory Landegger<br/>VP<br>Parsons & Whittemore">
+                                <img src="assets/img/speakers/S2019/GregL2.jpg" alt="">
+                            </div>
+                            <div data-name="Donna Redel <br/> Board Member,<br>
+                            New York Angels">
+                                <img src="assets/img/speakers/S2019/DonnaR.jpeg" alt="">
+                            </div>
+                            <div data-name="Kelly Chen<br/>Principal<br>Data Collective VC">
+                                <img src="assets/img/speakers/S2019/Kelly-DCVC.jpg" alt="">
+                            </div>
+                            <div data-name="Manjari Chandran-Ramesh<br/>Investment Director<br>IP Group">
+                                <img src="assets/img/speakers/S2019/Manjari-IPGroup.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="10" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>03:40 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Founder's Fireside - Future of Venture Investment Trends
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Leading Venture Capital founders gather for a discussion on the future of venture investing.
+                            Topics to be covered include technologies, sectors and investment vehicles in the race for
+                            the next wave of unicorns.
+                        </p>
+                        <div class="people-faces">
+                            <div data-name="Jim Robinson<br/>Founder<br>RRE Ventures">
+                                <img src="assets/img/speakers/S2019/jim--rre.png" alt="">
+                            </div>
+
+                            <div data-name="Matt McCall<br/>Partner<br>Pritzker Group">
+                                <img src="assets/img/speakers/S2019/mattmcall.jpg" alt="">
+                            </div>
+                            <div data-name="Max Artemenko<br/>Founder<br>BCI Summit">
+                                <img src="assets/img/speakers/S2019/max.jpg" alt="">
+                            </div>
+                            <div data-name="Jack Lee<br/>Founding Managing Partner<br>HCM Capital (Foxconn)">
+                                <img src="assets/img/speakers/S2019/jacklee-fox.jpg" alt="">
+                            </div>
+                        </div>
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="11" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>04:20 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Asia's Impact on Disruptive Tech Growth and Future
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Join some of the most active VCs from China, Korea and Singapore as they highlight
+                            opportunities and tech growth in each market. China as a rapid adopter of technology, with
+                            the highest level of internet users and online sales in the world. Korea as the world leader
+                            in terms of the contribution internet-related activity makes to GDP. Singapore as a center
+                            of innovation and R-D at the heart of the world’s most dynamic economic region.
+                        </p>
+                        <div class="people-faces">
+
+                            <div data-name="Edith Yeung<br/>Partner<br>500 Startups">
+                                <img src="assets/img/speakers/S2019/edith500.png" alt="">
+                            </div>
+                            <div data-name="Jay Eum<br/>Co-Founder & MD<br>TransLink Capital">
+                                <img src="assets/img/speakers/S2019/JayE.jpg" alt="">
+                            </div>
+                            <div data-name="Stan Fung<br/>MD<br>Drum Tower Ventures">
+                                <img src="assets/img/speakers/S2019/StanF.jpg" alt="">
+                            </div>
+                            <div data-name="Steve Leonard<br/>Founding CEO<br>SGInnovate">
+                                <img src="assets/img/speakers/S2019/steave-sgi.jpg" alt="">
+                            </div>
+                            <div data-name="Melissa Frakman<br/>Founder & MP<br>EMVC">
+                                <img src="assets/img/speakers/S2019/mel.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+
+
+                <!--<div data-name="Leo De Luna<br/>MD<br>M12 (Microsoft Ventures)">
+                                <img src="assets/img/speakers/S2019/Leo_deLuna.jpg" alt="">
+                            </div>-->
+
+
+                <div data-id="14" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>05:00 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Networking
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Connect with hundreds of leading disruptive tech investors and researchers. Expand your
+                            market insights, build your business circle with like minded tech enthusiasts and innovators
+                            who support the growth of sectors that will produce economic growth and prosperity.
+                        </p>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="15" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4 style="text-align:center">
+                            07:00 pm
+                            <br />|
+                            <br />09:30 pm
+                        </h4 style="text-align:center">
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            VIP Dinner Reception
+                        </h4>
+                        <h4 class="access" style="color: #F06824;"> VIP</h4>
+                        <p>
+                            Join us to for a curated, culinary evening with our VIP ticket holders and select speakers
+                            and panelists. Tickets for this engagement are limited, with a handful of seats reserved for
+                            leading academics and unicorn investors in AI, blockchain, cyber security and quantum
+                            academics.
+                        </p>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container">
+
+            <div class="section-title text-center section-padding padding-bottom-0"
+                style="padding-top: 60px!important;">
+                <h2>Saturday (May 11th)</h2>
+
+            </div>
+            <div class="row">
+                <div data-id="20" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>11:00 am</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Brunch Networking and Introduction
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Network with leading technologists, investors and renowned founders of global tech startups
+                            over a decadent New York style brunch. Day includes networking sessions and panels on
+                            disruptive technologies with leading venture investors and founders.
+                        </p>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="21" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>11:30 am</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <h4 class="activity">
+                            Future of Work and Corporate Automation
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            As RPA and AI use cases grow exponentially, the dynamic and needs in office environments are
+                            evolving rapidly. Join some of our leading investors as they discuss changing needs and
+                            opportunities in corporations and other business environments.
+                        </p>
+
+                        <div class="people-faces">
+                            <div data-name="David S. Rose<br/>Founder and Chairman<br>NY Angels">
+                                <img src="assets/img/speakers/S2019/david-s-rose.jpg" alt="">
+                            </div>
+                            <div data-name="Leo De Luna <br/>MD<br>M12 (Microsoft Ventures)">
+                                <img src="assets/img/speakers/S2019/Leo_deLuna.jpg" alt="">
+                            </div>
+                            <div data-name="Paul Dawalibi<br/>CEO<br>Obsidian Ventures">
+                                <img src="assets/img/speakers/S2019/Paul-obsidian.png" alt="">
+                            </div>
+                            <div data-name="Seamon Chan<br/>Co-Founder & MP<br>Palmdrive VC">
+                                <img src="assets/img/speakers/S2019/seamon.jpg" alt="">
+                            </div>
+                            <div data-name="Jeff Carter<br/>Fund Manager<br>West Loop Ventures">
+                                <img src="assets/img/speakers/S2019/Jeff-Westloop.JPG" alt="">
+                            </div>
+
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="22" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>12:30 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Global Adoption of Digital Assets and Blockchain
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Although digital asset prices may have leveled off recently, this new asset class has
+                            brought in an extensive wave of new technologies and developments around the globe. Gather
+                            insights and future opportunities with active blockchain and digital asset investors.
+                        </p>
+
+                        <div class="people-faces">
+                            <div data-name="Susan Akbarpour<br/>Partner<br>Candou Ventures">
+                                <img src="assets/img/speakers/S2019/susan-a.jpeg" alt="">
+                            </div>
+                            <div data-name="Sam Cassatt<br/>CSO<br>ConsenSys">
+                                <img src="assets/img/speakers/scassatt.jpg" alt="">
+                            </div>
+                            <div data-name="Jalak Jobanputra<br/>Founder & MP<br>Future\Perfect Ventures">
+                                <img src="assets/img/speakers/Jalak2.PNG" alt="">
+                            </div>
+                            <div data-name="Michael Moro<br/>CEO<br>Genesis Trading, Genesis Capital">
+                                <img src="assets/img/speakers/michael2-genesis.jpg" alt="">
+                            </div>
+                            <div data-name="Andrew Busch<br/>CMIO<br>CFTC">
+                                <img src="assets/img/speakers/S2019/AndrewB.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <div data-id="23" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4>01:10 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Opportunities in AI and Quantum Computing
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            As AI gains mass adoption, in a wide range of use cases from mobile and automotive to
+                            software and robotics, the synergies and capabilities that the emergence of quantum machines
+                            could bring to the forefront is almost unfathomable.
+                        </p>
+
+                        <!--David Dana?	Alex, Creative VC	Dave, Merck pharma	Manjari, IP Group-->
+                        <div class="people-faces">
+                            <div data-name="David Dana<br/>Head of VC Investments<br>European Investment Fund">
+                                <img src="assets/img/speakers/S2019/eif.jpg" alt="">
+                            </div>
+                            <div data-name="Mark Danchak<br/>MD<br>WorldQuant Ventures">
+                                <img src="assets/img/speakers/S2019/Mard-wqv.jpeg" alt="">
+                            </div>
+                            <div data-name="Alex Luce<br/>Investor<br>Creative Ventures">
+                                <img src="assets/img/speakers/S2019/Alex-Creative.jpg" alt="">
+                            </div>
+                            <div data-name="Manjari Chandran-Ramesh<br/>Investment Director<br>IP Group">
+                                <img src="assets/img/speakers/S2019/Manjari-IPGroup.jpg" alt="">
+                            </div>
+                            <div data-name="Robert Ackerman<br/>Founder, MD<br>AllegisCyber VC">
+                                <img src="assets/img/speakers/S2019/bob-ac.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+
+                <div data-id="14" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="line-1"> </div>
+                    <div class="line-2"> </div>
+
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4 style="text-align:center">
+                            1:50 pm
+                            <br />|
+                            <br />3:00 pm
+                        </h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            Networking
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                            Connect with hundreds of leading disruptive tech investors and researchers. Expand your
+                            market insights, build your business circle with like minded tech enthusiasts and innovators
+                            who support the growth of sectors that will produce economic growth and prosperity.
+                        </p>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+
+
+                <!--<div data-id="24" class="col-md-12">
+                    <!-- column-->
+
+                <!--<div class="line-1"> </div>-- >
+                    <div class="line-2"> </div>
+
+                    <div class="time-small">
+                        <div class="line-h"></div>
+                        <h4 style="text-align:center">
+                            1:30 pm
+                            <br />|
+                            <br />3:00 pm</h4>
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-- >
+                        <h4 class="activity">
+                            Networking
+                        </h4>
+                        <h4 class="access"> All</h4>
+                        <p>
+                           Connect with hundreds of leading disruptive tech investors and researchers. Expand your market insights, build your business circle with like minded tech enthusiasts and innovators who support the growth of sectors that will produce economic growth and prosperity.
+
+                          </p>
+
+                    </div><!-- wrapper- ->
+                    <div class="clearfix"></div>
+                </div>-->
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container">
+
+            <div class="section-title text-center section-padding padding-bottom-0"
+                style="padding-top: 60px!important;">
+                <h2>Sunday (May 12th)</h2>
+
+            </div>
+            <div class="row">
+                <div data-id="30" class="col-md-12">
+                    <!-- column-->
+
+                    <div class="time-small">
+                        <h4 style="text-align:center">
+                            1:00 pm
+                            <br />|
+                            <br />4:00 pm</h4style="text-align:center">
+                    </div>
+
+                    <div class="wrapper">
+                        <!-- wrapper-->
+                        <h4 class="activity">
+                            VIP Networking & Tasting Session
+                        </h4>
+                        <h4 class="access"> VIP</h4>
+                        <p>
+                            Join select speakers, VIP ticket holders and BCI Summit sponsors for an afternoon of locally
+                            sourced culinary delights and wine tasting with our favorite oenologist , David Bova,
+                            co-Founder of Millbrook Vineyards & Winery . For over 30 years David has managed the
+                            business’ day to day operations as well as the commercial vineyard operation, Vista Verde,
+                            in California.
+                        </p>
+
+                    </div><!-- wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <p style="text-align: center;color: #999;">
+        *All panels, speakers and topics are subject to change. Please check back for ongoing updates prior to the
+        event.
+    </p>
+
+
+    <footer style=" padding-top: 0px !important;" class="footer-section section-padding padding-bottom-0 text-center">
+        <div class="footer-bottom">
+            <div class="footer-rights">
+                <p class="copyright-text">
+                    © Copyright 2020 Verivent LLC - All Rights Reserved. BCI Summit is a registered Trademark of
+                    Verivent LLC.
+                    <i>
+                        All events, materials, topics and discussions are purely opinions and
+                        are for information purposes only. It is not intended to be investment advice.
+                        Seek a duly licensed professional for investment advice
+                    </i>
+                </p>
+            </div>
+            <div class="social-link">
+                <a target="_blank" href="https://twitter.com/BciSummit"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/bci-summit/"><i
+                        class="fa fa-linkedin"></i></a>
+
+                <div>
+                    <script type="IN/FollowCompany" data-id="11413392"></script>
+                </div>
+
+            </div>
+            <div class="aFooter">
+
+                <a href="terms.html">Terms and Conditions &nbsp;&nbsp;&nbsp; </a>
+                <a href="privacy.html">Privacy Policy &nbsp;&nbsp;&nbsp; </a>
+                <a href="contact.html"> Contact</a>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--jquery script load-->
+    <script src="assets/js/jquery.js"></script>
+    <!--Owl carousel script load-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--Bootstrap v3 script load here-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--Slick Nav Js File Load-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!-- Js File Load-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--Main js file load-->
+    <script src="assets/js/main052518_tom.js?ver=5e"></script>
+    <script type="text/javascript" src="assets/slick/slick.js"></script>
+
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+
+    <script>
+        $('.openNewPopup').click(function (e) {
+            e.preventDefault();
+            var Id = $(this).attr("data-popup");
+
+            $('body, html').css('overflow', 'hidden');
+            $('.formNewpopUp[data-popup="' + Id + '"]').fadeIn(400);
+        });
+
+
+        //    $('.closeBtn, .formNewpopUp').click(function () {
+        $('.closeBtn').click(function () {
+            $('.formNewpopUp').fadeOut(400);
+            $('body, html').css('overflow', 'auto');
+        })
+
+
+        $('.slick-carousel').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+
+                    }
+                }
+            ]
+        });
+
+
+
+    </script>
+    <!-- Hotjar Tracking Code for bcisummit.com -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1503340, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+
+
+</body>
+
+</html>

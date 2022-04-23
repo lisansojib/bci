@@ -1,0 +1,1217 @@
+﻿<html lang="zxx">
+
+<head>
+    <title>BCI Summit</title>
+    <meta name="description"
+        content="BCI was established to provide trust, transparency, and targeted networking in the disruptive technology space. We connect companies with our global community of investors, innovators and educators through curated invite-only roundtables and other events. BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BCI Summit | New York">
+    <meta property="og:description"
+        content="BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth">
+    <meta property="og:image" content="http://bcisummit.com/assets/img/ogbuilding.png">
+    <meta property="og:url" content="http://bcisummit.com/index.html/?1">
+    <meta property="og:site_name" content="BCI Summit">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@bcisummit" />
+    <meta name="twitter:title" content="BCI Summit | New York">
+    <meta name="twitter:description"
+        content="BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth">
+    <meta name="twitter:image" content="http://bcisummit.com/assets/img/ogbuilding.png">
+    <meta name="twitter:image:alt" content="BCI Summit | New York">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="BCI Summit">
+    <meta itemprop="description"
+        content="BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth">
+    <meta itemprop="url" content="http://bcisummit.com/">
+    <!--  <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <meta itemprop="addressLocality" content="New York, NY">
+        </span>
+    </span>
+        Non-Essential, But Required for Analytics
+        <meta property="fb:app_id" content="your_app_id" />
+        <meta name="twitter:site" content="@website-username">-->
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110674874-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-110674874-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TPCLFBQ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/slicknav.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/style060418_tom.css?v=2.903" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- light gallery -->
+    <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+    <link href="assets/css/lightgallery.css" rel="stylesheet">
+    <!--LFeeder-->
+    <script>(function () { window.ldfdr = window.ldfdr || {}; (function (d, s, ss, fs) { fs = d.getElementsByTagName(s)[0]; function ce(src) { var cs = d.createElement(s); cs.src = src; setTimeout(function () { fs.parentNode.insertBefore(cs, fs) }, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_YEgkB8l0mZv8ep3Z.js'); })();</script>
+    <script>gtag('event', 'conversion', { 'send_to': 'AW-816360806/Q-lYCNrvmYMBEObaooUD' });</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // header img fix for ios mobile - scroll issue - https://stackoverflow.com/a/31330874/203172
+            var $w = $(window),
+                $background = $('.hpbanner');
+            // Fix background image jump on mobile
+            if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+                $background.css({ 'top': 'auto', 'bottom': 0 });
+
+                $w.resize(sizeBackground);
+                sizeBackground();
+            }
+            function sizeBackground() {
+                $background.height(screen.height);
+            }
+            $("#savesend-form-save").on("submit", function (e) {
+                e.preventDefault();
+                var proceed = true;
+                var name = $("input[name='name']").val();
+                var email = $("input[name='email']").val();
+                if (name == '') {
+                    $('input[name=name]').css('border', '1px solid red');
+                    proceed = false;
+                } else {
+                    $('input[name=name]').css('border', '1px solid green');
+                }
+                if (email == '') {
+                    $('input[name=email]').css('border', '1px solid red');
+                    proceed = false;
+                } else {
+                    $('input[name=email]').css('border', '1px solid green');
+                }
+                if (proceed) {
+                    $.ajax({
+                        url: "../textfile.php",
+                        method: "POST",
+                        data: $(this).serialize(),
+                        dataType: "html",
+                        success: function (response) {
+
+                            $("#success").show();
+                            $("#success").html("Thank You!<br>We'll be in touch");
+
+                            $("#name").hide();
+                            $("#email").hide();
+                            $("#submit").hide();
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    <style>
+        .hpbanner {
+            background: url(assets/img/homepage-hero-5.jpg) top / cover no-repeat;
+            min-height: 96vh;
+            width: 100%;
+            opacity: 1
+        }
+
+        .hpbox {
+            padding: 6px 10px;
+            margin-top: 32vh;
+            position: absolute;
+            width: 100%;
+            color: #fff;
+            font-weight: bold;
+            font-size: 36pt;
+            text-align: center;
+        }
+
+        .hpbox h1 {
+            color: #000;
+            display: inline;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 5px;
+            line-height: 72px;
+            padding: 0 10px;
+            font-size: 3vw;
+        }
+
+        .hpbox .inner {
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            line-height: 40px;
+        }
+
+        .hpbox h1 span {
+            color: #F06824
+        }
+
+        .headerbtn {
+            margin-top: 50vh;
+            bottom: inherit;
+        }
+
+        .header-media {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 67vh;
+        }
+
+        .header-media h4 {
+            color: #fff;
+            font-weight: normal;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .header-media img {
+            margin-left: 40px
+        }
+
+        .nextevent {
+            background: transparent
+        }
+
+        input[type="submit"].white {
+            background: #faf9f9 !important;
+            color: #f06824 !important;
+            padding: 5px;
+            max-width: 170px;
+            text-transform: none !important;
+            font-size: 16px;
+        }
+
+        .section-title h2 {
+            color: #F06824;
+        }
+
+        .trusted-section-1,
+        .trusted-section-2,
+        .trusted-section-3 {
+            z-index: 2;
+            padding: 40px;
+        }
+
+        .trusted-section-1 p,
+        .trusted-section-2 p,
+        .trusted-section-3 p {
+            color: #000 !important;
+            transition: 1s;
+        }
+
+        .trusted-section-1:hover p,
+        .trusted-section-2:hover p,
+        .trusted-section-3:hover p,
+        .trusted-section-1:hover h3,
+        .trusted-section-2:hover h3,
+        .trusted-section-3:hover h3 {
+            color: #fff !important;
+            transition: 1s;
+        }
+
+        .trusted-section-1:hover p,
+        .trusted-section-1:hover a,
+        .trusted-section-2:hover p,
+        .trusted-section-2:hover a,
+        .trusted-section-3:hover p,
+        .trusted-section-3:hover a {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .trusted-section-1 h3,
+        .trusted-section-2 h3,
+        .trusted-section-3 h3,
+        .trusted-section-1 p,
+        .trusted-section-1 a,
+        .trusted-section-2 p,
+        .trusted-section-2 a,
+        .trusted-section-3 p,
+        .trusted-section-3 a {
+            display: inline;
+        }
+
+        .trusted-section-1:hover h3,
+        .trusted-section-2:hover h3,
+        .trusted-section-3:hover h3 {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .trusted-section-1:hover a,
+        .trusted-section-2:hover a,
+        .trusted-section-3:hover a {
+            transition: 1s;
+        }
+
+        .trusted-section-1 .trusted-block-bg,
+        .trusted-section-2 .trusted-block-bg,
+        .trusted-section-3 .trusted-block-bg {
+            content: "";
+            background-size: auto 100%;
+            margin: 10px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+            transition: 1s;
+            filter: grayscale(1);
+            opacity: 0.1;
+        }
+
+        .trusted-section-1:hover .trusted-block-bg,
+        .trusted-section-2:hover .trusted-block-bg,
+        .trusted-section-3:hover .trusted-block-bg {
+            opacity: 1;
+        }
+
+        .providing-section {
+            text-align: center;
+            margin-bottom: 60px
+        }
+
+        .providing-section img {
+            max-width: 60px;
+            max-height: 60px;
+            margin-bottom: 20px;
+        }
+
+        .about-us-content.gain-tangible-results div {
+            text-align: left
+        }
+
+        .about-us-content.gain-tangible-results div div.numeric-list-text {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gain-tangible-results div {
+            padding-bottom: 0 !important;
+            margin-bottom: 20px;
+            line-height: 40px;
+        }
+
+        .about-us-content div div.about-icon {
+            content: counter(list);
+            width: 54px;
+            height: 54px;
+            float: left;
+            margin: 0 1.5rem 0rem 0;
+            color: var(--bg);
+            background-color: transparent;
+            border: solid 2px #999;
+            border-radius: 50%;
+            display: -webkit-inline-box;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            shape-outside: ellipse();
+            z-index: 1;
+            position: relative
+        }
+
+        .about-us-content div b {
+            color: #F06824
+        }
+
+        .about-us-content.gain-tangible-results div {
+            text-align: left;
+            display: table;
+            clear: both;
+            counter-increment: list;
+            padding-bottom: 4rem;
+            font-size: 1.1rem;
+            line-height: 1.375;
+            position: relative;
+            min-height: 54px
+        }
+
+        .providing-section-1 p,
+        .providing-section-2 p,
+        .providing-section-3 p {
+            padding-bottom: 0px !important
+        }
+
+        .providing-section-1 {
+            background-color: rgba(0, 0, 0, .02);
+
+        }
+
+        .providing-section-2 {
+            background-color: rgba(0, 0, 0, .05);
+
+        }
+
+
+        .providing-section-3 {
+            background-color: rgba(0, 0, 0, .08);
+
+        }
+
+        .providing-section-1.card-section figure {
+            background-color: #faf5f2
+        }
+
+        .providing-section-2.card-section figure {
+            background-color: #f2edea
+        }
+
+        .providing-section-3.card-section figure {
+            background-color: #ebe6e4
+        }
+
+        .about-us-content.gain-tangible-results {
+            padding-bottom: 40px
+        }
+
+        .about-us-content.gain-tangible-results img {
+            max-width: 32px;
+            max-height: 32px
+        }
+
+        .trusted-section-1 .trusted-block-bg {
+            background-image: url(assets/img/trusted-section-1-bg.jpg);
+        }
+
+        .trusted-section-2 .trusted-block-bg {
+            background-image: url(assets/img/trusted-section-2-bg.jpg);
+        }
+
+        .trusted-section-3 .trusted-block-bg {
+            background-image: url(assets/img/trusted-section-3-bg.jpg);
+        }
+
+        .providing-section-mob {
+            display: none;
+        }
+
+        .providing-section-desktop {
+            min-height: 300px
+        }
+
+        .card-section {
+            width: calc(100% - 40px);
+            height: 300px;
+            position: absolute;
+            -ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+            transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+            -webkit-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
+
+        .card-section figure {
+            display: table;
+            height: 100%;
+            width: 100%;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 45px;
+            position: absolute;
+            margin: 0;
+            -ms-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
+            perspective: 1000px;
+            -webkit-perspective: 1000px;
+
+        }
+
+        .card-section figure div {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            color: #848484 !important;
+            padding: 40px;
+            margin-bottom: 0;
+            font-family: 'Lato', sans-serif !important;
+            font-size: 18px !important;
+            -ms-transform: translateZ(60px) scale(.94);
+            transform: translateZ(60px) scale(.94);
+            -webkit-transform: translateZ(60px) scale(.94);
+        }
+
+        .card-section .back {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+            text-align: center
+        }
+
+        .card-section:hover {
+            transform: rotateY(180deg);
+        }
+
+        @media screen and (min-width: 1024px) {
+            .twocol.detail-content p {
+                width: 50%;
+                margin-bottom: 0;
+                padding: 0 15px;
+            }
+
+            .hpbox h1 {
+                font-size: 36pt;
+            }
+
+            .hpbox {
+                margin-top: 20vh;
+            }
+        }
+
+        @media screen and (max-width: 1023px) {
+            about-us-content.gain-tangible-results div.numeric-list-text {
+                display: inline-block;
+                padding: 0 5px;
+                width: calc(100% - 80px);
+                line-height: 40px;
+                position: absolute;
+            }
+
+            .trusted-section-1 .trusted-block-bg,
+            .trusted-section-2 .trusted-block-bg,
+            .trusted-section-3 .trusted-block-bg {
+                background-size: auto 100%;
+            }
+
+            .providing-section-mob {
+                display: block;
+            }
+
+            .providing-section-desktop {
+                display: none;
+            }
+
+            .providing-section-1,
+            .providing-section-2,
+            .providing-section-3 {
+                padding: 20px;
+                margin: 10px 0;
+                min-height: 440px;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+
+            .container,
+            .container-md,
+            .container-sm {
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+
+            .trusted-section-1 .trusted-block-bg,
+            .trusted-section-2 .trusted-block-bg,
+            .trusted-section-3 .trusted-block-bg {
+                background-size: 100% auto;
+            }
+
+            .providing-section-1,
+            .providing-section-2,
+            .providing-section-3 {
+                min-height: unset;
+            }
+
+            .logo-block {
+                max-width: 50%;
+                text-align: center;
+            }
+
+            .logo-block img {
+                margin: auto;
+                float: none
+            }
+
+            .hpbox h1 {
+                font-size: 32pt;
+                line-height: normal;
+            }
+
+            .hpbox {
+                margin-top: 20vh;
+            }
+
+            .section-padding.intro-page img.mt-5 {
+                margin-top: 0 !important
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            .media-part {
+                display: flex;
+            }
+        }
+
+        @media screen and (max-width: 560px) {
+            .about-us-content.gain-tangible-results {
+                font-size: 14px
+            }
+
+            .about-us-content.gain-tangible-results div div.about-icon {
+                margin-right: 10px
+            }
+
+            .about-us-content.gain-tangible-results div div.about-icon:after {
+                display: none
+            }
+
+            .about-us-content.gain-tangible-results div.numeric-list-text {
+                display: inline-block;
+                padding: 0 5px;
+                width: calc(100% - 80px);
+                line-height: normal;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .hpbanner {
+                min-height: 80vh;
+                max-height: 92vh;
+            }
+
+            .hpbox h1 {
+                font-size: 24pt
+            }
+
+            .header-media {
+                display: inherit;
+                text-align: center;
+                padding: 0 10px;
+                margin-top: 68vh;
+            }
+
+            .header-media h4 {
+                display: block
+            }
+
+            .header-media img {
+                margin-left: 0
+            }
+        }
+
+        @media screen and (max-width: 460px) {
+
+            .trusted-section-1:after,
+            .trusted-section-2:after,
+            .trusted-section-3:after {
+                content: "";
+                background-size: auto 100%;
+            }
+        }
+
+        @media screen and (max-width: 460px) {
+
+            .trusted-section-1 .trusted-block-bg,
+            .trusted-section-2 .trusted-block-bg,
+            .trusted-section-3 .trusted-block-bg {
+                background-size: 100% 100%;
+            }
+        }
+
+        @media screen and (max-width: 374px) {
+            .hpbanner {
+                background: url(assets/img/homepage-hero-0930.jpg?z9) top / cover no-repeat;
+                min-height: 80vh;
+            }
+
+            .hpbox {
+                margin-top: 20vh;
+            }
+        }
+    </style>
+</head>
+
+<body class="homepagebody">
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPCLFBQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+    <div class="scroll-to-top"> <a href=""><i class="fa fa-caret-up"></i></a> </div>
+    <div class="mobile-logo"> <a href="index.html"><img src="assets/img/logo-temp.png" style="height:45px"
+                alt="BCI Summit"></a> </div>
+    <nav class="main-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"> <a href="index.html"><img src="assets/img/logo-temp.png" style="height:45px"
+                                alt="BCI Summit"></a> </div>
+                </div>
+                <div class="col-md-9 text-right">
+                    <nav>
+                        <ul id="menu-bar">
+                            <li><a href="edc.html">EDC</a></li>
+                            <li><a href="talks.html">Talks</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="sponsor.html">Sponsor</a></li>
+                            <li><a href="summit-2022-big-data-management.html">BCI SUMMIT: BIG DATA MGT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="header-section ">
+        <nav class="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo"> <a href="index.html"><img src="assets/img/logo-temp-2.png"
+                                    style="height:45px" alt="BCI Summit"></a> </div>
+                    </div>
+                    <div class="col-md-9 text-right">
+                        <nav>
+                            <ul>
+                                <li><a href="edc.html">EDC</a></li>
+                                <li><a href="talks.html">Talks</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="sponsor.html">Sponsor</a></li>
+                                <li><a href="summit-2022-big-data-management.html">BCI SUMMIT: BIG DATA MGT</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="jumbotron hpbanner" style="margin-bottom: 0">
+        <div class="hpbox">
+            <div class="inner">
+                <h1>Providing <span>Trust</span>, <span>Transparency</span> and <span>Targeted Networking</span> in the
+                    disruptive technology space.</h1>
+            </div>
+        </div>
+    </div>
+    <section class="section-padding intro-page " data-anchor='#strategicpartners'
+        style=" padding-top: 60px !important; padding-bottom: 0px !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center sponsoer-slide-cont">
+                        <h2 style="margin-bottom: 15px !important;">
+                            Executive Collaboration
+                        </h2>
+                    </div>
+                    <div class="section-title text-center">
+                        <h3 style="line-height: 150% !important; font-size: 18px; color: #5f5e5e; font-weight: 600;">
+                            C-level executive networking programs for active collaboration in technologies across
+                            industries, disciplines and borders
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding intro-page " style="padding-top: 30px !important; padding-bottom: 60px !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="section-title text-center">
+                        <h2 style="margin-bottom:5px !important">TRUSTED EXECUTIVE EXPERIENCE</h2>
+                        <h3 style="margin-bottom: 45px !important; font-size: 18px; color: #5f5e5e; font-weight: 600;">
+                            Private , Closed-Door, Invite-Only, No media </h3>
+                    </div>
+                    <div class="section-title trusted-section">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12 trusted-section-1">
+                                <div class="trusted-block-bg"></div><br /><br />
+                                <h3 style="text-align: left; margin-bottom:5px;  ">Summits</h3><br />
+                                <p style="padding-bottom: 2px;">
+                                    Meet your peers, gain insights and experiences from across industries, disciplines
+                                    and borders in an invite-only, closed door setting
+                                </p><br /><br />
+                                <a style="color: #f06824; " href="events.html">Learn more</a>
+                            </div>
+                            <div class="col-md-4 col-xs-12 trusted-section-2">
+                                <div class="trusted-block-bg"></div><br /><br />
+                                <h3 style="text-align: left; margin-bottom: 5px; ">Executive Data Council</h3><br />
+                                <p style="padding-bottom: 2px;">
+                                    Fully curated program for the world’s top Fortune 500 and banking executives
+                                </p><br /><br />
+                                <a style=" color: #f06824;" href="edc.html">Learn more</a>
+                            </div>
+                            <div class="col-md-4 col-xs-12 trusted-section-3">
+                                <div class="trusted-block-bg"></div><br /><br />
+                                <div class="trusted-content-section">
+                                    <h3 style="text-align: left; margin-bottom:5px;">Talks</h3><br />
+                                    <p style="padding-bottom: 2px;">
+                                        Stay ahead by engaging with the most influential peers in digital
+                                        transformation, corporate innovation and other topics in a private virtual
+                                        setting
+                                    </p><br /><br />
+                                    <a style="color: #f06824; " href="talks.html">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding intro-page " data-anchor='#strategicpartners'
+        style=" padding-top: 60px !important; padding-bottom: 0px !important; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center sponsoer-slide-cont">
+                        <h2 style="margin-bottom: 0px !important;">
+                            Exclusively for Fortune 500 and Banking Executives
+                        </h2>
+                    </div>
+                    <div class="row Strategic-cont">
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/goldman-sachs.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 140px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/jpm.jpg" alt=""
+                                class="img-responsive center-block logo-sizing" style=" width: 150px; height: 100%;">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/Lockheed.gif" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/munichre1.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 170px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/bayer.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 110px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/pfizer.svg" alt=""
+                                class="img-responsive center-block logo-sizing" style="        width: 130px;
+">
+                        </div>
+                    </div>
+                    <div class="row Strategic-cont">
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/darpa.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 170px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/gen-mot.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 190px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/ford.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 130px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/Halliburton.jpg" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 170px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/shell.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                        </div>
+                        <div class="col-xs-6 col-md-2 media-part logo-block">
+                            <img src="assets/img/participantlogos/hsbc.png" alt=""
+                                class="img-responsive center-block logo-sizing" style="width: 130px; ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding intro-page"
+        style="padding-top: 40px !important;     padding-bottom: 0px !important; background-color: #fffaf7;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-2">
+                    <div class="section-title text-center">
+                        <h2>Providing Peer Insights, Connecting People and Opportunities Globally</h2>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="section-title text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 ">
+                                    <div class="about-us-content providing-section providing-section-mob">
+                                        <div class="row">
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="providing-section-1">
+                                                    <img src="assets/img/insights-bg.png" />
+                                                    <h3 style="text-align: center; margin-bottom: 5px">Insights</h3>
+                                                    <p>
+                                                        Gain insights and learn from your peers’ experiences across
+                                                        industries, disciplines and borders
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="providing-section-2">
+                                                    <img src="assets/img/relationships-icon.png" />
+                                                    <h3 style="        text-align: center;        margin-bottom: 5px">
+                                                        Relationships</h3>
+                                                    <p>
+                                                        Get to know world’s top Fortune 500 and banking tech executives
+                                                        responsible for positioning their organizations for success
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="providing-section-3">
+                                                    <img src="assets/img/technologies-icon.png" />
+                                                    <h3 style="text-align: center; margin-bottom:5px">Technologies</h3>
+                                                    <p>
+                                                        Learn from leading researchers and technologists about new,
+                                                        groundbreaking advances and opportunities for new revenue
+                                                        streams and cost savings
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="about-us-content providing-section providing-section-desktop">
+                                        <div class="row">
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="providing-section-1 card-section">
+                                                    <figure class="front">
+                                                        <div>
+                                                            <img src="assets/img/insights-bg.png" />
+                                                            <h3 style="text-align: center; margin-bottom: 5px">Insights
+                                                            </h3>
+                                                        </div>
+                                                    </figure>
+                                                    <figure class="back">
+                                                        <div>
+                                                            Gain insights and learn from your peers’ experiences across
+                                                            industries, disciplines and borders
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="providing-section-2 card-section">
+                                                    <figure class="front">
+                                                        <div>
+                                                            <img src="assets/img/relationships-icon.png" />
+                                                            <h3
+                                                                style="        text-align: center;        margin-bottom: 5px">
+                                                                Relationships</h3>
+                                                        </div>
+                                                    </figure>
+                                                    <figure class="back">
+                                                        <div>
+                                                            Get to know world’s top Fortune 500 and banking tech
+                                                            executives responsible for positioning their organizations
+                                                            for success
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="providing-section-3 card-section">
+                                                    <figure class="front">
+                                                        <div>
+                                                            <img src="assets/img/technologies-icon.png" />
+                                                            <h3 style="text-align: center; margin-bottom:5px">
+                                                                Technologies</h3>
+                                                        </div>
+                                                    </figure>
+                                                    <figure class="back">
+                                                        <div>
+                                                            Learn from leading researchers and technologists about new,
+                                                            groundbreaking advances and opportunities for new revenue
+                                                            streams and cost savings
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding intro-page"
+        style="padding-top: 50px !important;     padding-bottom: 0px !important; background-color: #f5f5f5;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="section-title text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 p-5">
+                                    <img class="mt-5" src="assets/img/about-img.jpg" />
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="about-us-content gain-tangible-results">
+                                        <h3 style="text-align: left; margin-bottom:30px">Gain Tangible Results</h3>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-1.png" /></div>
+                                            <div class="numeric-list-text">Gain <b>peer insights</b> and advice on
+                                                today’s toughest challenges</div>
+                                        </div>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-2.png" /></div>
+                                            <div class="numeric-list-text">Uncover <b>new revenue streams</b> with data
+                                                and digitization</div>
+                                        </div>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-3.png" /></div>
+                                            <div class="numeric-list-text">Drive digital transformation while staying
+                                                agile </div>
+                                        </div>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-4.png" /></div>
+                                            <div class="numeric-list-text">Identify, analyze and implement <b>critical
+                                                    technologies</b></div>
+                                        </div>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-5.png" /></div>
+                                            <div class="numeric-list-text">Ensure org-wide <b>data security</b> and
+                                                governance</div>
+                                        </div>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-6.png" /></div>
+                                            <div class="numeric-list-text">Find <b>partners</b> across industries and
+                                                borders </div>
+                                        </div>
+                                        <div class="numeric-list">
+                                            <div class="about-icon"><img src="assets/img/icon-7.png" /></div>
+                                            <div class="numeric-list-text">Many more...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding intro-page " data-anchor='#strategicpartners' style="    padding-top: 60px !important;
+        padding-bottom: 0px !important;
+    ">
+        <div class="container pb-5">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="section-title text-center sponsoer-slide-cont">
+                        <h2 style="margin-bottom: 15px !important;">
+                            About BCI
+                        </h2>
+                    </div>
+                    <div class="section-title text-center">
+                        <h3
+                            style=" line-height: 150% !important; font-size: 18px;    color: #5f5e5e;    font-weight: 600;">
+                            BCI Summit is a private networking organization for the world’s leading tech executives.
+                        </h3>
+                        <h3 style=" line-height: 150% !important;font-size: 18px; color: #5f5e5e;font-weight: 600;">
+                            BCI helps participants gain insights from their peers, network with world’s leading
+                            executives, develop partnerships, and learn about critical technologies through in-person
+                            gatherings, virtual roundtables, and ongoing executive collaboration programs.
+                        </h3>
+                        <h3
+                            style=" line-height: 150% !important; font-size: 18px;    color: #5f5e5e;    font-weight: 600;">
+                            All BCI programs and engagements are closed-door, invite-only with no media, nor recordings.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style=" padding-top: 0px !important;" class="footer-section section-padding padding-bottom-0 text-center">
+        <div class="footer-bottom">
+            <div class="footer-rights">
+                <p class="copyright-text">
+                    © Copyright 2020 Verivent LLC - All Rights Reserved. BCI Summit is a registered Trademark of
+                    Verivent LLC.
+                    <i>
+                        All events, materials, topics and discussions are purely opinions and
+                        are for information purposes only. It is not intended to be investment advice.
+                        Seek a duly licensed professional for investment advice
+                    </i>
+                </p>
+            </div>
+            <div class="social-link">
+                <a target="_blank" href="https://twitter.com/BciSummit"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/bci-summit/"><i
+                        class="fa fa-linkedin"></i></a>
+
+                <div>
+                    <script type="IN/FollowCompany" data-id="11413392"></script>
+                </div>
+
+            </div>
+            <div class="aFooter">
+
+                <a href="terms.html">Terms and Conditions &nbsp;&nbsp;&nbsp; </a>
+                <a href="privacy.html">Privacy Policy &nbsp;&nbsp;&nbsp; </a>
+                <a class="openNewPopup" data-popup="Contact" href="#">Contact</a>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="formNewpopUp" data-popup="Contact">
+        <div class="popUpFormCont">
+            <div class="closeBtn">
+                <i class="fa fa-close"></i>
+            </div>
+            <section class="section-padding about-us-page abo about-page" style="    padding: 10px !important;">
+                <div class="container">
+                    <div class="row">
+                        <div class="detail-header">
+                            <h3 style="color:#F06824">Contact with Us</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--REPLACE-->
+                <div class="typeform-widget" data-url="https://maxa4.typeform.com/to/FABh3iqf"
+                    style="width: 100%; height: 500px;"></div>
+                <script>(function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+                <!--REPLACE-->
+            </section>
+        </div>
+    </div>
+
+    
+    <!-- <script src="assets/js/countdown.js"></script> -->
+    <!--jquery script load-->
+    <script src="assets/js/jquery.js"></script>
+    <!--Owl carousel script load-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--Bootstrap v3 script load here-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--Slick Nav Js File Load-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!-- Js File Load-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--Main js file load-->
+    <script src="assets/js/main052518.js?ver=1"></script>
+    <!-- lightgallery -->
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'));
+        var loc = window.location.pathname;
+        var dir = loc.substring(1, loc.lastIndexOf('/'));
+        console.log(dir);
+    </script>
+
+
+    <!-- Twitter universal website tag code -->
+    <script>
+        !function (e, t, n, s, u, a) {
+            e.twq || (s = e.twq = function () {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+        }(window, document, 'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init', 'nzle8');
+        twq('track', 'PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+    <script>
+        var fs = require('fs');
+        var files = fs.readdirSync('/assets/img/');
+        console.log(files);
+    </script>
+
+    <script>
+        $('.openNewPopup').click(function (e) {
+            e.preventDefault();
+            var Id = $(this).attr("data-popup");
+
+            $('body, html').css('overflow', 'hidden');
+            $('.formNewpopUp[data-popup="' + Id + '"]').fadeIn(400);
+        });
+
+
+        //    $('.closeBtn, .formNewpopUp').click(function () {
+        $('.closeBtn').click(function () {
+            $('.formNewpopUp').fadeOut(400);
+            $('body, html').css('overflow', 'auto');
+        })
+
+
+        $('.slick-carousel').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

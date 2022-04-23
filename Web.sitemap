@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="bcisummit.com" title="BCI Summit"  description="BCI was established to provide trust, transparency, and targeted networking in the disruptive technology space. We connect companies with our global community of investors, innovators and educators through curated invite-only roundtables and other events. ">
+    <siteMapNode url="bcisummit.com/events.html" title="Events"  description="Upcoming BCI Roundtables and Events" />
+    <siteMapNode url="bcisummit.com/sponsor.html" title="BCI Summit 2019"  description="BCI Summit - May 2019" />
+    <siteMapNode url="bcisummit.com/sponsor.html" title="Sponsor"  description="Information on select sponsorship opportunities" />
+    <siteMapNode url="bcisummit.com/speakers-S2019.html" title="Speakers"  description="Apply to speak at BCI Summit 2019 and BCI Roundtables" />
+    </siteMapNode>
+</siteMap>
+
+

@@ -1,0 +1,757 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BCI Summit 2019 | Day 2; Networking</title>
+    <!--Favicon add-->
+    <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+    <!--bootstrap Css-->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!--owl.carousel Css-->
+    <link href="../assets/css/owl.carousel.css" rel="stylesheet">
+    <!--Slick Nav Css-->
+    <link href="../assets/css/slicknav.min.css" rel="stylesheet">
+    <!--Animate Css-->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <!--Style Css-->
+    <link href="../assets/css/style060418_tom.css?v=2.702" rel="stylesheet">
+    <!--Responsive Css-->
+    <link href="../assets/css/responsive.css?v=2.8" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--  Non-Essential, But Required for Analytics
+       <meta property="fb:app_id" content="your_app_id" />
+       <meta name="twitter:site" content="@website-username">-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110674874-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110674874-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TPCLFBQ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Chatra {literal} -->
+    <script>
+        window.ChatraSetup = {
+            colors: {
+                buttonText: '#f0f0f0', /* chat button text color */
+                buttonBg: '#f06824'    /* chat button background color */
+            },
+            buttonPosition: window.innerWidth < 1024 ? 'bc' : 'br'
+        };
+        (function (d, w, c) {
+            w.ChatraID = 'rp3nFde9Tm8B5tSWR';
+            var s = d.createElement('script');
+            w[c] = w[c] || function () {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = 'https://call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'Chatra');
+    </script>
+    <!-- /Chatra {/literal} -->
+    <script> gtag('event', 'conversion', { 'send_to': 'AW-816360806/Q-lYCNrvmYMBEObaooUD' }); </script>
+    <style>
+        @media screen and (min-width: 1024px) {
+            .row.gall .col-xs-6:nth-child(4n+1) {
+                clear: left;
+            }
+        }
+
+        @media only screen and (max-width : 992px) {
+            .row.gall .col-md-3:nth-child(2n+1) {
+                clear: left;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body class="past-events">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPCLFBQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--Preloader start-->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+    <!--Preloader end-->
+    <!--Scroll to top start-->
+    <div class="scroll-to-top"> <a href=""><i class="fa fa-caret-up"></i></a> </div>
+    <!--Scroll to top end-->
+    <!--mobile logo -->
+    <div class="mobile-logo"> <a href="../index.html"><img src="../assets/img/logo-temp.png" style="height:45px" alt="BCI Summit"></a> </div>
+    <!--main menu start-->
+    <nav class="main-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"> <a href="../index.html"><img src="../assets/img/logo-temp.png" style="height:45px" alt="BCI Summit"></a> </div>
+                </div>
+                <div class="col-md-9 text-right">
+                    <nav>
+                        <ul id="menu-bar" class="menu-bar mobile"></ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--main menu end-->
+    <!--header section start-->
+    <section class="breadcrumb-section contact-bg section-padding pastE">
+        <nav class="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo"> <a href="../index.html"><img src="../assets/img/logo-temp-2.png" style="height:45px" alt="BCI Summit"></a> </div>
+                    </div>
+                    <div class="col-md-9 text-right">
+                        <nav>
+                            <ul id="menu-bar" class="menu-bar"></ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h1>BCI Summit 2019</h1>
+                    <p>Day 2; Networking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Header section end-->
+
+
+
+
+    <section class=" about-us-page abo about-page">
+        <div class="container">
+            <div class="row">
+                <div class="detail-header">
+                    <div class="detail-header-left">
+                        <h2 style="color:#F06824">Panel and Networking</h2><h4>(Founders + Investors Invite-only)</h4>
+                    </div>
+                    <div class="detail-header-right">
+                        <p>Brunch Networking Session</p>
+                    </div>
+                </div>
+
+                <div class="detail-content">
+                    <p>
+                        BCI Summit will host an invite-only networking brunch on May 11th in Manhattan. This will entail dining and discussions with industry peers
+                        (VCs, CVCs, LPs, family offices, angel investors), leading researchers, technologists as well as select disruptive tech founders. <br />
+                        <br>
+                        <b>Who we are</b><br>
+                        BCI was established to provide trust, transparency, and targeted networking in the disruptive technology space.
+                        We connect our global community of investors, innovators and educators through curated invite-only roundtables and other events.
+                        BCI is dedicated to fostering collaboration among top investment officers and furthering disruptive technology growth.
+                        <br>
+                         <b>Carefully Curated</b><br>
+                        <img src="../assets/img/food/devocion.png" style="height:67px;" alt="Devocion">
+                        <img src="../assets/img/food/royce.png" style="height:30px; " alt="Royce">
+                    </p>
+
+                    <p style="white-space: nowrap;">
+                        <b>Date</b>:<br>
+                        11th May 2019, 11:00am-3:00pm<br>
+                        <br>
+                        <b>Location</b>:<br>
+                        Midtown Manhattan, <br>
+                        New York, New York<br>
+                        <br>
+                        <b><a href="../agenda-S2019.html" style="color:#f06824">Agenda</a></b>:<br>
+                        11:00-11:30am - Reception &amp; Networking<br>
+                        11:30-01:30pm - Speaker Panels<br>
+                        01:30-03:00pm - Networking<br>
+                        <br>
+                        <b>Cost</b><br />
+                        <i>FRIENDS AND FAMILY DISCOUNT</i><br />
+                        <i>Regular Admission: <strike><sup><span style="color: color: #979494;font-size: 9px;">$</sup></span> 249</strike> <sup><span style="color: color: #979494;font-size: 9px;">$</sup>199 (through May 9th)</i><br>
+                        <i>Only while available.</i><br />
+                        <i>Tickets are extremely limited.</i><br />
+                        <i>All registrations subject to approval. </i><br /><br />
+
+
+                        <a href="#" class="openNewPopup" data-popup="1" style="padding-left: 10%">
+                            <input type="submit" value="Register">
+                        </a>
+                    </p>
+
+
+
+                    <p>
+
+
+
+
+                        <b>Topics Covered</b> <br />
+                        - Changing landscape of venture investing<br>
+                        - Global opportunities in disruptive tech<br />
+                        - New VC investment vetting processes <br>
+                        - The future of corporate tech adoption <br>
+                        - Most effective strategic partnerships<br><br />
+
+                        <img src="../assets/img/food/brunch.png" style="height:122px;" alt="Brunch">
+                        <img src="../assets/img/food/coffee.png" style="height:122px; " alt="Coffee">
+                        <br /><br />
+
+                        <b>Includes</b> <br />
+                        1) Networking with leading experts, founders and investors<br>
+                        2) Panels with renowned speakers and leading investors    <br>
+                        3) Breakfast, brunch and lunch food options<br>
+                        4) Beverages of choice                <br>
+
+                        <br>
+
+
+
+                    </p>
+                </div>
+            </div>
+            <div style="color:#F06824; padding-left:25%; padding-top:30px"> <b></b> </div>
+        </div>
+
+
+
+        <!--<section class="section-padding top-investor" style="padding-top: 0px !important; padding-bottom: 0px !important; ">
+            <div class="container">
+
+                <div class="section-title text-center">
+                    <h2>Speakers</h2>
+
+                </div>
+                <div class="investor-carousel owl-theme text-center col-md-offset-0 investor-carousel-padding" style="padding-left:22%;">
+
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="../assets/img/speakers/michael2-genesis.jpg" class="img-responsive max70" alt="investor image"> </div>
+                            <div class="single-investor-wrapper">
+                                <h4>Michael Moro</h4>
+                                <p class="sp-height">
+                                    CEO, Genesis Trading,<br>
+                                    Genesis Capital<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="../assets/img/speakers/Jalak2.PNG" class="img-responsive max70" alt="investor image"> </div>
+                            <div class="single-investor-wrapper">
+                                <h4>Jalak Jopanputra</h4>
+                                <p class="sp-height">
+                                    Founder & Managing Partner, <br>
+                                    Future\Perfect Ventures
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!--NEW ROW-- >
+                <div class="investor-carousel owl-theme text-center col-md-offset-0 investor-carousel-padding" style="padding-left:22%;">
+
+
+
+
+                </div>
+        </section>-->
+
+
+
+
+        <section class="section-padding top-investor" style="padding-top: 0px !important; padding-bottom: 0px !important;">
+            <div class="container">
+                <!-- container -->
+                <div class="section-title text-center">
+                    <h2>Speakers Include</h2>
+                </div>
+                <div class="investor-carousel owl-theme text-center col-md-offset-0 investor-carousel-padding">
+                   
+                     <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="/assets/img/speakers/S2019/Leo_deLuna.jpg" class="img-responsive max70" alt="investor image"> </div>
+                                <div class="single-investor-wrapper">
+                                    <h4>Leo De Luna</h4>
+                                    <p class="sp-height">
+                                        MD <br>
+                                        <strong>M12 (Microsoft Ventures)</strong>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="/assets/img/speakers/S2019/david-s-rose.jpg" class="img-responsive max70" alt="investor image"> </div>
+                            <div class="single-investor-wrapper">
+                                <h4>David Rose</h4>
+                                <p class="sp-height">
+                                    Founder and Chairman<br>
+                                    <strong>NY Angels</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-wrapper">
+                                <div class="investor-profile"> <img src="../assets/img/speakers/scassatt.jpg" class="img-responsive max70" alt="investor image"> </div>
+                                <div class="single-investor-wrapper">
+                                    <h4>Sam Cassatt</h4>
+                                    <p class="sp-height">
+                                        Chief Strategy Officer,<br>
+                                        <strong>ConsenSys</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="/assets/img/speakers/S2019/eif.jpg" class="img-responsive max70" alt="investor image"> </div>
+                            <div class="single-investor-wrapper">
+                                <h4>David Dana</h4>
+                                <p class="sp-height">
+                                    Head of VC Investments<br>
+                                    <strong>European Investment Fund </strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="investor-carousel owl-theme text-center col-md-offset-0 investor-carousel-padding">
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="/assets/img/speakers/S2019/Manjari-IPGroup.jpg" class="img-responsive max70" alt="investor image"> </div>
+                                <div class="single-investor-wrapper">
+                                    <h4>Manjari Chandran-Ramesh</h4>
+                                    <p class="sp-height">
+                                        Investment Director <br>
+                                        <strong>IP Group Plc</strong>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-profile"> <img src="/assets/img/speakers/S2019/Dave-merck.jpg" class="img-responsive max70" alt="investor image"> </div>
+                            <div class="single-investor-wrapper">
+                                <h4>Dave Rosenberg</h4>
+                                <p class="sp-height">
+                                    Head of the New Business Fund<br>
+                                    <strong>M Ventures, Merck Pharmaceuticals</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="investor-wrapper">
+                            <div class="investor-wrapper">
+                               <div class="investor-profile"> <img src="/assets/img/speakers/S2019/Paul-obsidian.png" class="img-responsive max70" alt="investor image"> </div>
+                                <div class="single-investor-wrapper">
+                                    <h4>Paul Dawalibi</h4>
+                                    <p class="sp-height">
+                                        CEO <br>
+                                        <strong>Obsidian Ventures</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="investor-wrapper">
+                           <div class="investor-profile"> <img src="/assets/img/speakers/S2019/AndrewB.jpg" class="img-responsive" alt="speaker image"> </div>
+                                <div class="single-investor-wrapper">
+                                    <h4>Andrew Busch</h4>
+                                    <p class="sp-height">
+                                        CMIO<br>
+                                        <strong>Commodity Futures <br />Trading Commission</strong>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+    
+
+
+        <section class="section-padding intro-page" style="padding-top: 0px !important;">
+            <div class="section-title text-center">
+                <a href="#" class="openNewPopup" data-popup="1" style="padding:10px">
+                    <input type="submit" value="Register">
+                </a>
+
+                <a href="../agenda-S2019.html" data-popup="1" style="padding:10px">
+                    <input type="submit" value="Agenda/Speakers">
+                </a>
+            </div>
+        </section>
+
+
+
+        <section class="" style="padding-top: 60px!important; padding-bottom: 60px!important;">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Key Sponsors</h2>
+    </div>
+
+    <div class="row">
+
+            <div class="col-xs-6 col-md-3 media-part">
+                <img src="../assets/img/newsponsors/alphaswap-bw.png" alt="Silec" class="img-responsive center-block" style=" width: 180px;  height: 100%; padding-top:10%;">
+            </div>
+
+            <div class="col-xs-6 col-md-3 media-part">
+                <img src="../assets/img/newsponsors/rocketfuel.svg" alt="RocketFuel" class="img-responsive center-block" style=" width: 230px;  height: 100%;padding-top:19%;">
+            </div>
+
+            <div class="col-xs-6 col-md-3 media-part">
+                <img src="../assets/img/newsponsors/genesis.png" alt="Genesis" class="img-responsive center-block" style=" width: 180px;  height: 100%;">
+            </div>
+
+            <div class="col-xs-6 col-md-3 media-part">
+                <img src="../assets/img/newsponsors/Silec-grey-logo-400.png" alt="Silec" class="img-responsive center-block" style=" width: 180px;  height: 100%; padding-top:5%;">
+            </div>
+    </div>
+
+  </div>
+</section>
+
+
+        <section class="section-padding intro-page" style="padding-top: 60px !important;     padding-bottom: 0px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center sponsoer-slide-cont">
+                            <h2 style="margin-bottom: 15px !important;">
+                                Investment Summit Participants Include
+                            </h2>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/twosigv.PNG" alt="" class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/nasaLogo.png" alt="" class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/geventures-v.png" alt="" class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/qualcomm.png" alt="" class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/techstars.png" alt="" class="img-responsive center-block logo-sizing" style="width: 150px; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/rre-ven-m.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; ">
+                            </div>
+
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/500 startups.jpg" alt="" class="img-responsive center-block logo-sizing" style=" width 120px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/barclays.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/bloccelerate.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/comcast.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/drumtower ventures.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/hsbc.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/knightsbridge.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/insight vp.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/Motorola-Solutions.jpg" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/ny angels.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/rabobank2.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/sosv.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+
+
+
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/european-invest.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/IBM.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/Prose ventures.png" alt="" class="img-responsive center-block logo-sizing" style=" width 120px; height 100%; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/WSBA.jpg" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%; ">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/UBS.jpg" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%;">
+                            </div>
+                            <div class="col-xs-6 col-md-2 media-part logo-block">
+                                <img src="../assets/img/participantlogos/translink.png" alt="" class="img-responsive center-block logo-sizing" style=" width 150px; height 100%; ">
+                            </div>
+
+
+
+
+
+
+                            <!--<div class="col-xs-6 col-md-2 media-part">
+                                <img src="../assets/img/participantlogos/translink capital.png" alt="" class="img-responsive center-block" style=" width: 150px; height: 100%;">
+                            </div>-->
+
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <p>&nbsp;</p>
+        <div id="buytickets"></div>
+        <div style="width:100%; text-align:left;">
+            <!--<iframe src="https://eventbrite.com/tickets-external?eid=47376585643&ref=etckt" frameborder="0" class="iframe-eventbrite" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>-->
+            <!--<div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;"> <a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">asdfasf</a> </div>-->
+        </div>
+        <div class="row text-center">
+            <div class="container">
+                <div class="col-md-12">
+                    <div style="color:grey; font-size:12px;"> <i></i> </div>
+                </div>
+            </div>
+        </div>
+        <div style="color:grey; font-size:12px; padding:20px" class="center-block"> </div>
+
+        <div class="formNewpopUp" data-popup="1">
+            <div class="popUpFormCont">
+                <div class="closeBtn">
+                    <i class="fa fa-close"></i>
+                </div>
+
+                <section class="section-padding about-us-page abo about-page" style="padding: 10px !important;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="detail-header">
+                                <div class="detail-header-left" style="padding-left: 15px;">
+                                    <h3 style="color:#F06824">Register</h3>
+                                </div>
+                                <div class="detail-header-right" style="padding-right: 25px;">
+                                    <p style="font-size: 25px;">Day 2: Networking Brunch</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div style="font-size:75%">
+
+                        <div class="typeform-widget" data-url="https://maxa4.typeform.com/to/OYzMGG" style="width: 100%; height: 600px !important;"></div>
+                        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+
+                </section>
+            </div>
+        </div>
+
+        <footer style="padding-top: 10px !important;" class="footer-section section-padding padding-bottom-0">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="copyright-text">
+                                © Copyright 2018 Verivent LLC - All Rights Reserved.
+                                <i>
+                                    All events, materials, topics and discussions are purely opinions and
+                                    are for information purposes only. It is not intended to be investment advice.
+                                    Seek a duly licensed professional for investment advice
+                                </i>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-2">
+                            <div class="social-link">
+                                <a target="_blank" href="https://www.meetup.com/BCISummit"><i class="fa fa-meetup"></i></a>
+                                <a target="_blank" href="https://twitter.com/BciSummit"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/company/bci-summit/"><i class="fa fa-linkedin"></i></a>
+                                <!--<a target="_blank" href="https://www.facebook.com/BCISumm/"><i class="fa fa-facebook"></i></a>-->
+                                <!--<a target="_blank" href="https://t.me/bcisummit"><i class="fa fa-telegram-plane"></i></a>-->
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-2">
+                            <div class="aFooter">
+                                <a href="terms.html">Terms and Conditions &nbsp;&nbsp;&nbsp; </a>
+                                <a href="privacy.html">Privacy Policy &nbsp;&nbsp;&nbsp; </a>
+                                <a href="contact.html"> Contact</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+        </footer><!--footer section end-->
+        <!-- The Modal -->
+        <div id="signModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content text-center" style=" max-width 410px; "> <span class="close">
+                &times;</span>
+                <p class="bigger" style=" font-size 20px; ">Be the first to know</p>
+                <!-- <p>Enter email for code:</p> -->
+
+                <form method="post" id="savesend-form-save">
+                    <input type="text" class="name" name="name" id="name" placeholder="Name">
+                    <input type="email" class="email" name="email" id="email" placeholder="Primary Email">
+                    <input type="submit" id="submit" value="GO">
+                </form>
+            </div>
+        </div>
+
+        <!--jquery script load-->
+        <script src="../assets/js/jquery.js"></script>
+        <!--Owl carousel script load-->
+        <script src="../assets/js/owl.carousel.min.js"></script>
+        <!--Bootstrap v3 script load here-->
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <!--Slick Nav Js File Load-->
+        <script src="../assets/js/jquery.slicknav.min.js"></script>
+        <!--Wow Js File Load-->
+        <script src="../assets/js/wow.min.js"></script>
+        <!--Main js file load-->
+        <script src="../assets/js/main052518_tom.js?ver=5e"></script>
+
+        <script>
+
+            $(document).ready(function () {
+
+                $("#savesend-form-save").on("submit", function (e) {
+
+                    e.preventDefault();
+
+                    var proceed = true;
+
+                    var name = $("input[name='name']").val();
+                    var email = $("input[name='email']").val();
+
+                    if (name == '') {
+                        $('input[name=name]').css('border', '1px solid red');
+                        proceed = false;
+                    } else {
+                        $('input[name=name]').css('border', '1px solid green');
+                    }
+
+                    if (email == '') {
+                        $('input[name=email]').css('border', '1px solid red');
+                        proceed = false;
+                    } else {
+                        $('input[name=email]').css('border', '1px solid green');
+                    }
+
+
+                    if (proceed) {
+                        $.ajax({
+                            url: "/textfile.php",
+                            method: "POST",
+                            data: $(this).serialize(),
+                            dataType: "html",
+                            success: function (response) {
+
+                                $("#success").show();
+                                $("#success").html("Thank You!<br>We'll be in touch");
+
+                                $("#name").hide();
+                                $("#email").hide();
+                                $("#submit").hide();
+
+
+                            }
+
+                        });
+
+                    }
+                });
+
+            });
+
+        </script>
+
+        <script>
+            $('.openNewPopup').click(function (e) {
+                e.preventDefault();
+                var Id = $(this).attr("data-popup");
+
+                $('body, html').css('overflow', 'hidden');
+                $('.formNewpopUp[data-popup="' + Id + '"]').fadeIn(400);
+            });
+
+
+            $('.closeBtn').click(function () {
+                $('.formNewpopUp').fadeOut(400);
+                $('body, html').css('overflow', 'auto');
+            })
+
+
+        </script>
+
+
+</body>
+</html>
