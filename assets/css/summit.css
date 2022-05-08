@@ -280,10 +280,5 @@ hr {
     color: #333;
     border-top: 1px solid #dedede;
     margin-top: 0;
-    margin-bottom: 24px;
-}
-
-hr:nth-of-type(1),
-hr:nth-of-type(2) {
-    margin-top: 15px;
+    margin-bottom: 14px;
 }
