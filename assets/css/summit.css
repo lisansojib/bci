@@ -260,6 +260,8 @@ li a[href*="speakers"] {
 
 .with-logo {
     padding-bottom: 10px;
+    width: 100% !important;
+    background-color: inherit;
 }
 
 .logos {
