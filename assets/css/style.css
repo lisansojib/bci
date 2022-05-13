@@ -3979,6 +3979,7 @@ div#chatra__iframe-wrapper {
 
     .media-part {
         display: block;
+        width: 50% !important;
     }
 
     .Strategic-cont .media-part {
