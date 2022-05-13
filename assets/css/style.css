@@ -3929,6 +3929,9 @@ div#chatra__iframe-wrapper {
 
 @media screen and (max-width: 750px) {
 
+    .hidden-xs {
+        display: none;
+    }
 
     section.video-cont video {
         margin-top: -50px;
