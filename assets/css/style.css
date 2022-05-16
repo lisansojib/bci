@@ -3929,6 +3929,18 @@ div#chatra__iframe-wrapper {
 
 @media screen and (max-width: 750px) {
 
+    .agenta-two-titles h4 {
+        padding-right: 10px !important;
+    }
+
+    .agenta-two-titles {
+        margin-right: 10px !important;
+    }
+
+    .agenta-two .agenta-two-titles {
+        margin-left: 0 !important;
+    }
+
     .hidden-xs {
         display: none;
     }
