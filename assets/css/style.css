@@ -4501,3 +4501,12 @@ p.expanded-desc {
     color: #333;
     font-size: 13px;
 }
+
+.btn-cta {
+    margin: 0 10px;
+    width: 283px;
+}
+
+.btn-cta input {
+    background: #00B356;
+}

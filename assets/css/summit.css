@@ -79,15 +79,6 @@ input[type="submit"].white {
     font-size: 16px;
 }
 
-.btn-cta {
-    margin: 0 10px;
-    width: 283px;
-}
-
-.btn-cta input {
-    background: #00B356;
-}
-
 .headerbtn-center {
     left: 50%;
     margin-right: -50%;
