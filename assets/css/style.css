@@ -4285,7 +4285,7 @@ a[data-href] {
 .logos img {
     filter: grayscale(100%);
     opacity: 0.8;
-    height: 60px;
+    height: 50px;
     padding: 4px 10px;
 }
 
